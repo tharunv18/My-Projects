@@ -1,0 +1,14 @@
+***** History ******
+Name                Final Exam          Final Average       Letter Grade        
+George Heng-Suz     86.0%               85.8%               B                   
+
+****** English *****
+Name                Final Exam          Final Average       Letter Grade        
+Suzy Smith          75.0%               76.15%              C                   
+
+****** English *****
+Name                Final Exam          Final Average       Letter Grade        
+Fred Sol            77.0%               78.24%              C                   
+
+****** Grade Distribution *****
+A - 0   B - 1   C - 2   D - 0   F - 0   

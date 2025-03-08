@@ -1,0 +1,7 @@
+3
+Smith, Suzy
+English 60 89 75
+Heng-Suz, George
+History 99 87 80 86
+Sol, Fred
+Math 87 76 45 76 34 78 89 77
