@@ -1,0 +1,548 @@
+body {
+	background-color: #A3CEF1;
+	font-family: 'Arial';
+}	
+.hidden { 
+	display:none;
+}
+
+.unhidden {
+	display:block;
+}
+
+.text {
+	color: white;
+	text-align: center;
+}
+
+.editcourses {
+  padding-left: 25px;
+  background-color: rgba(205, 209, 228, 0.8);
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 3px solid #f1f1f1;
+  width: 45%; /* Could be more or less, depending on screen size */
+  color: black;
+}
+
+.dropdown {
+	background-color: #A3CEF1;
+}
+
+.editcourses button {
+   background-color: #274C77;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#btn {
+  background-color: #274C77;
+  color: white;
+  padding: 4px 6px;
+  margin: 5px 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.editcourses button:hover {
+	opacity: 0.8;
+}
+
+
+.startpage {
+  padding: 16px;
+  background-color: #fefefe;
+  margin: 10% auto; /* 15% from the top and centered */
+  border: 3px solid #f1f1f1;
+  width: 80%; /* Could be more or less, depending on screen size */
+  /*max-width: 1000px;*/
+  color: black;
+  box-sizing: border-box;
+  text-align:center;
+}
+
+.signupform {
+   background-image: url("background2.jpg");
+   color:white;
+   font-size: 15px;
+   margin: auto;
+   padding: 60px;
+}
+
+.signupform .login-container{
+  padding: 16px;
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 3px solid #f1f1f1;
+  width: 80%; /* Could be more or less, depending on screen size */
+  color: black;
+}
+
+.signupform input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.signupform textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.signupform input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.signupform .student-signup{
+  padding: 16px;
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 3px solid #f1f1f1;
+  width: 80%; /* Could be more or less, depending on screen size */
+  color: black;
+}
+
+.signupform .tutor-signup{
+  padding: 16px;
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 3px solid #f1f1f1;
+  width: 80%; /* Could be more or less, depending on screen size */
+  color: black;
+}
+
+#footer {
+  background-color: #274C77;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+#header {
+  background-color: #274C77;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-size: 30px;
+}
+
+.signupform button {
+   background-color: #274C77;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signupform button:hover {
+	opacity: 0.8;
+}
+
+@media screen and (min-width: 1500px) {
+  .col #tutorbtn{
+    width: 100%;
+    margin-left: 50px;
+  }
+}
+
+/* Two-column layout */
+.col {
+  /*float: left;*/
+  width: 40%;
+  margin: auto;
+  padding: 0px 50px;
+  margin-top: 6px;
+  display: inline-block;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* style the container */
+.loginpage-top {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+  padding-right: 50px;
+} 
+
+/* bottom container */
+.loginpage-bottom {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+  padding-right: 50px;
+}
+
+.signup {
+  background-color: #A3CEF1;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 5vw;
+  margin: 15px 0px;
+  border-radius: 4px;
+  line-height: 80px;
+  display: inline-block;
+  width: 100%;
+}
+
+.signup:hover {
+	color: white;
+	background-color: #6096BA;
+}
+
+.login {
+  background-color: #274C77;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  margin: 5px 0;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 20px;
+  width: 100%;
+}
+
+.login:hover {
+	color: white;
+	background-color: #8B8C89;
+}
+
+.home {
+  background-color: #E7ECEF;
+  border: none;
+  color: black;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  margin: 5px 0;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 20px;
+  width: 100%;
+}
+
+.home:hover {
+	color: white;
+	background-color: black;
+	
+}
+
+
+#positionBigImage {
+	position:absolute;
+	top:60px;
+	left:0px;
+	width:100%;
+}
+
+#lightbox {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.7);
+}
+
+#boundaryBigImage {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:517px;
+}
+
+#x {
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+.thumbnail {
+	height:200px;
+	margin:20px;
+}
+
+.thumbnail:hover {
+	border: 5px solid #274C77;
+	margin: 15px;
+}
+
+#main {
+	width:100%;
+	max-width: 1000px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	/*grid-template-columns: repeat(auto-fill);*/
+	gap: .25rem;
+	padding:20px;
+	background-color: #E7ECEF;
+}
+
+.main-profile {
+  text-align: center;
+  display: inline-block;
+  background-color: #DDDDDD;
+  padding-bottom: 15px;
+  margin: 15px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav :hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .search {
+  float: right;
+}
+/*
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+}*/
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav .search {
+    float: none;
+    display: none;
+  }  
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1340px) {
+  .col {
+    width: 90%;
+    margin-top: 0;
+    margin-right: 50px;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+#name {
+  color: white;
+  text-align: center;	
+}
+#grade {
+  color: white;
+  text-align: center;  
+}
+#courses {
+  color: white;
+  text-align: center;	
+}
+#about {
+  color: white;
+  text-align: center;	
+}
+#searchbar{
+     padding:15px;
+     border-radius: 10px;
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+ 
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  height: 500px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: scroll;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#myaccpfp {
+text-align: center;
+background-color: rgba(255, 255, 255, 0.7);
+background-position: center; 
+height: 150px;
+padding: 15px;
+width: 305px;
+vertical-align:center;
+margin:auto;
+}
+
+#myaccount {
+text-align:center;
+margin:auto;
+background-position: center;
+}
+
+#pfp {
+width: 150px;
+margin: 15px;
+border-radius: 50%;
+}
+
+#names {
+margin:auto;
+text-align: center;
+background-color: rgba(255, 255, 255, 0.7);
+padding: 15px;
+margin-bottom: 15px;
+width: 300px;
+vertical-align:center;
+}
+
+#names p {
+font-family: Verdana;
+font-size: 12px;
+}
+
+#names a {
+text-decoration: underline;
+color: blue;
+}
+

@@ -1,0 +1,56 @@
+[
+    {
+        "fname": "H.E.",
+        "lname": "Pennypacker",
+        "username": "Kramer",
+        "password": "cosmo",
+        "grade": "12",
+        "courses": [
+            "sci10",
+            "cs12"
+        ]
+    },
+    {
+        "fname": "asdf",
+        "lname": "erb",
+        "username": "sdf",
+        "password": "aewv",
+        "grade": "12",
+        "courses": [
+            "mand10"
+        ]
+    },
+    {
+        "fname": "tharun",
+        "lname": "Venkatesh",
+        "username": "tharun v",
+        "password": "w",
+        "grade": "12",
+        "courses": [
+            "engla9",
+            "ict9"
+        ]
+    },
+    {
+        "fname": "Art",
+        "lname": "Vandelay",
+        "username": "George",
+        "password": "$2y$10$KQxb2RTn1pOXIlHpqmj0bexnnbhPTQkZoPfnIC\/Cua4VGnpIh.Cn6",
+        "grade": "12",
+        "courses": [
+            "wpmath10",
+            "cs12"
+        ]
+    },
+    {
+        "fname": "Tharun",
+        "lname": "Venkatesh",
+        "username": "KB23",
+        "password": "$2y$10$lA6BOSob08bFclC1KFpjreyBe.M31Ggs0akscobbnopSIJAH.guPm",
+        "grade": "12",
+        "courses": [
+            "engla9",
+            "ict9"
+        ]
+    }
+]

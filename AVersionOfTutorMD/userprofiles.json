@@ -1,0 +1,139 @@
+[
+    {
+        "fname": "Taylor",
+        "lname": "Swift",
+        "username": "taylorswift13",
+        "password": "$2y$10$3gADl7u4Xu5c9nbSd3iZQOCk554OT9.km.K\/5pVNBL6hD2MEK0\/tS",
+        "grade": "12",
+        "courses": [
+            "apstats"
+        ],
+        "aboutme": "stream midnights",
+        "uid": "0",
+        "imagetype": "png"
+    },
+    {
+        "fname": "Art",
+        "lname": "Vandelay",
+        "username": "george",
+        "password": "$2y$10$B7HF9LMw0MPMpN4Lbg7wzeyJhwIJIpla\/YDEklMs4xfU.BM8dg0\/a",
+        "grade": "12",
+        "courses": [
+            "geo12",
+            "ls12",
+            "law12"
+        ],
+        "aboutme": "It's not a lie... if you believe it",
+        "uid": "1",
+        "imagetype": "jpg"
+    },
+    {
+        "fname": "Pinkie",
+        "lname": "Pie",
+        "username": "pinkiepie",
+        "password": "$2y$10$jwAS74LVKfJoj4r3xQQbNevRVDfxbG6\/i5\/f.SmqaDjd53kNBBcQ6",
+        "grade": "9",
+        "courses": [
+            "apcalc"
+        ],
+        "aboutme": "yay",
+        "uid": "2",
+        "imagetype": "png"
+    },
+    {
+        "fname": "Kawhi",
+        "lname": "Leonard",
+        "username": "kawhileonard",
+        "password": "$2y$10$Ov.e9eg0rwETWG\/\/LQsn5eGoibJnBQw7AHK1hKe08R5FDHc3Tcdam",
+        "grade": "12",
+        "courses": [
+            "cs11"
+        ],
+        "aboutme": "tharun's fav player",
+        "uid": "3",
+        "imagetype": "jpg"
+    },
+    {
+        "fname": "twilight",
+        "lname": "sparkles",
+        "username": "twilightsparkles",
+        "password": "$2y$10$gSvAmf7qk\/9TYOSShphdr.Kw4pwZQecog3XRZS5dgj54b38rX6eWW",
+        "grade": "11",
+        "courses": [
+            "cs11"
+        ],
+        "aboutme": "this is so cool",
+        "uid": "4",
+        "imagetype": "png"
+    },
+    {
+        "fname": "Cristiano",
+        "lname": "Ronaldo",
+        "username": "ronaldo",
+        "password": "$2y$10$KIvYdK1rwTnUrRsKa4lKa.YB9zPCFXK8T4pCWyR0pZttHRXkYIgiS",
+        "grade": "10",
+        "courses": [
+            "ss10",
+            "climch12"
+        ],
+        "aboutme": "soccer is so fun",
+        "uid": "5",
+        "imagetype": "jpg"
+    },
+    {
+        "fname": "Lebron",
+        "lname": "James",
+        "username": "lebron23",
+        "password": "$2y$10$bWBV5ToBM\/kpv5TfCSrYIOJH0hpy3KL.m7.u8YyQtGhF6YXIiYToe",
+        "grade": "12",
+        "courses": [
+            "span9",
+            "engls11"
+        ],
+        "aboutme": "cool player",
+        "uid": "6",
+        "imagetype": "jpg"
+    },
+    {
+        "fname": "Stephen",
+        "lname": "Curry",
+        "username": "stephcurry",
+        "password": "$2y$10$svlPPtGLhcWLskiYQIlmOOVg6wlkAkl\/88d1KwkIR1QEDlDJwK5\/G",
+        "grade": "10",
+        "courses": [
+            "cs11",
+            "fr10"
+        ],
+        "aboutme": "warriors",
+        "uid": "7",
+        "imagetype": "jpg"
+    },
+    {
+        "fname": "Boston",
+        "lname": "Terrier",
+        "username": "terrier",
+        "password": "$2y$10$R8rP.3s0\/lnC.srib\/5G..0CQ084z5HwLleJ1nl4Op3gq6dUEz97q",
+        "grade": "10",
+        "courses": [
+            "sci10",
+            "BCfp12"
+        ],
+        "aboutme": "i love dogs",
+        "uid": "8",
+        "imagetype": "jpg"
+    },
+    {
+        "fname": "Kobe",
+        "lname": "Bryant",
+        "username": "kobe",
+        "password": "$2y$10$7UXS2hwWGOKerUDh7uq\/lek6kRGEeTfm8zkyJ93R6rxQdNBDut2Qe",
+        "grade": "12",
+        "courses": [
+            "ss9",
+            "phys11"
+        ],
+        "aboutme": "basketball is funnn",
+        "uid": "9",
+        "imagetype": "jpg"
+    }
+]
