@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Pong</title>
+    
+    <!-- include an external style sheet -->
+    <link rel="stylesheet" href="pong.css">  
+    <link rel='icon' href='images/favicon.ico' type='image/x-icon'>
+    
+  </head>
+  
+  <body>
+	<div id = "controlpanel">
+		<div onclick = "showInstructions()" id = "instructions" class = "controls"> Instructions </div> 
+		<div onclick = "startGame()" id = "start" class = "controls"> Start Game </div> 
+		<div onclick = "stopGame()" id = "stop" class = "controls"> End Game </div> 
+		<div onclick = "pauseGame()" id = "pause" class = "controls"> Pause Game </div> 
+		<div onclick = "resumeGame()" id = "resume" class = "controls"> Resume Game </div> 
+	</div>
+	
+  
+  
+  
+  
+  
+     <div id = "header">
+		<h1 id = "title"> Pong</h1>
+		<h2 id = "left">Score 1: <span id = "score1">0</span></h2>
+		<h2 id = "right">Score 2: <span id = "score2">0</span></h2>
+		<h2 class = "abilities" id = "left2">| Abilities left: <span id = "ability1">3</span></h2>
+		<h2 class = "abilities" id = "right2">Abilities left: <span id = "ability2">3 |</span></h2>
+	</div>
+	<div id = "gameBoard">
+		<div id = "paddle1" class = "paddle">
+	    </div>
+	
+	    <div id = "ball">
+	    </div>
+	
+	    <div id = "paddle2" class = "paddle">
+		</div>
+
+	
+	</div>
+
+	<div id = "lightbox" class = "hidden"></div>
+ 
+ 
+	<div id = "positionMessage"> 
+	<div id = "boundaryMessage" class = "hidden">
+		<img id = "x" src = "images/x.png" alt = "close" onclick = "continueGame()" >
+		<h1 class = "titletext" id = "message"> &nbsp; </h1>
+		<p class = "titletext" id = "message2"></p>
+		</div>
+	</div>
+
+
+ <script src="pong.js"></script> 
+  </body>
+
+  
+</html>

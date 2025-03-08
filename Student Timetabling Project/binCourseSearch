@@ -1,0 +1,17 @@
+private int binCourseSearch(int l, int r, String id) {
+		if (r >= l) {
+			int m = l + (l + r) / 2;
+			
+			if (allPossibleCourses.get(m).getId().equals(id)) {
+				return m;
+			}
+			
+			if (allPossibleCourses.get(m).getId().compareTo(id) > 0) {
+				return binCourseSearch(l, m - 1, id);
+			}
+			
+			return binCourseSearch(m + 1, r, id);
+		}
+		
+		return -1;
+	}
