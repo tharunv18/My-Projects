@@ -1,0 +1,1135 @@
+
+const levels = [
+//level 0
+["flag", "rock", "", "", "heart",
+ "fenceside", "rock", "", "", "rider",
+ "", "tree", "right enemy2", "enemy2", "enemy2",
+ "", "water", "right animate", "animate", "animate",
+ "", "fenceup", "", "horseup", ""],
+ 
+ //level 1
+ ["flag", "water", "", "", "",
+  "fenceside", "water", "", "", "rider",
+   "right animate", "bridge animate", "animate", "animate", "animate",
+   "heart", "water", "right enemy2", "enemy2", "enemy2",
+   "", "water", "horseup", "", ""],
+ 
+ //level 2
+ ["tree", "tree", "flag", "tree", "heart",
+ "right animate", "animate", "animate", "animate", "animate",
+ "water", "bridge", "water", "water", "water",
+ "", "", "", "fenceup", "horsedown",
+ "rider", "right enemy2", "enemy2", "enemy2", "enemy2"],
+ 
+ 
+ //level 3
+ ["tree", "down enemy2", "", "rock", "flag",
+ "", " enemy2", "right bridge animate", "bridge animate", "bridge animate",
+ "rock", "enemy2", "water", "bridge", "water",
+ "tree", "enemy2", "water", "bridge", "water",
+ "rider", "enemy2", "fenceup", "horseup", "rock"],
+ 
+ 
+ //level 4
+ ["water", "water", "flag", "water", "water",
+  "water", "water", "down bridge animate", "water", "water",
+  "water", "water", "bridge animate", "", "water",
+  "water", "water", "bridge animate", "rock", "water",
+  "null enemy2 ", "rider", "animate", "horseup", "tree"],
+ 
+ // level 5
+["down animate", "down enemy2", "rock", "", "horseleft",
+ "animate", "enemy2", "wizard", "", "",
+ "animate", "rock", "chest", "", "",
+ "rock", "", "", "", "",
+ "flag", "", "", "", ""],
+ 
+ //level 6
+ ["flag", "tree", "", "", "rider",
+ "", "fenceup", "right animate", "animate", "animate",
+ "right bridge enemy2", "bridge enemy2", "bridge enemy2", "water", "water",
+ "water", "water", "bridge", "water", "water",
+ "horseright", "", "", "", ""],
+ 
+  //level 7
+ ["heart", "tree", "flag", "tree", "rider",
+ "", "fenceup", "right animate", "animate", "animate",
+ "fenceside", "right enemy2", "enemy2", "enemy2", "tree",
+ "water", "water", "bridge", "water", "water",
+ "", "fenceup", "horseup", "fenceup", ""],
+ 
+  //level 8
+ ["down enemy2", "tree", "tree", "", "rider",
+ "enemy2", "rock", "water", "bridge", "water",
+ "enemy2", "right animate", "animate", "animate", "water",
+ "fenceside", "rock", "", "fenceup", "tree",
+ "flag", "fenceup", "", "", "horseleft"],
+ 
+ 
+   //level 9
+["water", "down animate", "", "horseleft", "water",
+ "water", "animate", "", "rock", "water",
+ "water", "animate", "fenceside", "tree", "water",
+ "water", "animate", "rider", "fenceup", "water",
+ "water", "right enemy2", "enemy2", "enemy2", "flag"],
+ 
+     //level 10
+["down animate", "down enemy2", "rock", "", "horseleft",
+ "animate", "enemy2", "wizard", "rock", "",
+ "rock", "wizard", "chest", "", "",
+ "", "", "", "", "",
+ "flag", "", "", "", ""],
+ 
+   //level 11
+ ["right enemy2", "enemy2", "enemy2", "down animate", "rider",
+ "water", "", "fenceup", "animate", "flag",
+ "water", "bridge", "water", "animate", "tree",
+ "water", "bridge", "water", "water", "water",
+ "horseright", "", "fenceup", "heart", "tree"],
+ 
+   //level 12
+ ["horseright", "", "", "water", "water",
+ "right enemy2", "enemy2", "enemy2", "water", "water",
+ "rock", "right animate", "animate", "animate", "tree",
+ "fenceside", "fenceside", "", "fenceside", "fenceside",
+ "tree", "tree", "rider", "heart", "flag"],
+ 
+    //level 13
+["rock", "tree", "horsedown", "fenceup", "flag",
+ "water", "water", "bridge", "water", "water",
+ "water", "water", "bridge", "water", "water",
+ "rider", "down enemy2", "right animate", "animate", "animate",
+ "tree", "enemy2", "heart", "rock", "tree"],
+ 
+    //level 14
+["tree", "", "down bridge enemy2", "down bridge animate", "horseleft",
+ "tree", "", "bridge enemy2", "bridge animate", "bridge",
+ "tree", "rider", "bridge enemy2", "bridge animate", "bridge rock",
+ "fenceside", "rock", "", "bridge animate", "",
+ "flag", "fenceup", "heart", "tree", "tree"],
+ 
+    //level 15
+["down animate", "down enemy2", "wizard", "", "horseleft",
+ "animate", "enemy2", "wizard", "rock", "",
+ "wizard", "rock", "chest", "", "",
+ "", "", "", "", "",
+ "flag", "", "", "", ""],
+ 
+    //level 16
+["down enemy2", "fenceup", "", "tree", "rider",
+ "enemy2", "fenceup", "down animate", "", "",
+ "enemy2", "fenceup", "animate", "", "horseright",
+ "enemy2", "water", "animate", "rock", "",
+ "flag", "water", "animate", "", ""],
+ 
+ //level 17
+["down enemy2", "fenceup", "down animate", "tree", "horseright",
+ "enemy2", "rock", "animate", "", "",
+ "enemy2", "tree", "animate", "", "",
+ "fenceside", "water", "bridge animate", "water", "rock",
+ "flag", "rider", "animate", "heart", "tree"],
+ 
+   //level 18
+["down animate", "down enemy2", "wizard", "", "horseleft",
+ "animate", "enemy2", "wizard", "", "",
+ "wizard", "wizard", "wizard", "", "",
+ "", "", "", "", "",
+ "door1", "", "door2", "", "door3"],
+ 
+    //level 19 (door1)
+["", "", "", "", "horserideright",
+ "", "", "", "", "",
+ "", "", "chest", "", "",
+ "null animate", "", "", "", "",
+ "null enemy2", "", "", "", ""],
+ 
+    //level 20 (door2)
+["", "", "", "", "horserideright",
+ "", "", "", "", "",
+ "", "", "chest", "", "",
+ "null animate", "", "", "", "",
+ "null enemy2", "", "", "", ""],
+ 
+    //level 21 (door3)
+["", "", "", "", "horserideright",
+ "", "", "", "", "",
+ "", "", "chest", "", "",
+ "null enemy2", "", "", "", "",
+ "null animate", "", "", "", ""],
+ ];
+ // make chest, door1, door2, door3, & wizard
+ // Improve grpahics too. Thanks- Past Tharun :)
+ 
+ 
+ 
+ 
+ var currentLevel = 0; //starting level
+ var riderOn = false;
+ 
+ const gridBoxes = document.querySelectorAll("#gameBoard div");
+ const noPassObstacles = ["rock", "tree", "water", "wizard"];
+ 
+ var  currentLocationOfHorse = 0;
+ var currentAnimation; //allows 1 animation per level
+ var currentAnimation2; //allows 1 animation per level
+ var widthOfBoard = 5;
+ var currentLocationOfEnemy = 0;
+ let currentLocationOfEnemy2 = 0;
+ var horseLocation = 0;
+ let speedOfEnemy = 750;
+ let speedOfEnemy2 = 750;
+ let playerLives = 3;
+ let animateBoxes = [];
+ let animateBoxes2 = [];
+ let turns = 0;
+ let turns2 = 0;
+ let check = 0;
+ let check2 = 0;
+ var levelup = new sound ("levelup.wav");
+ var lostLife = new sound ("lostlife.wav");
+ var gameOver = new sound ("gameover.wav");
+ var win = new sound ("win.wav");
+ var powerUp = new sound ("powerup.wav");
+
+ //when page loads, load level and show instructions
+ window.addEventListener ("load", function () {
+	 showInstructions();
+	 loadLevel();
+ });
+ 
+ //move horse
+ document.addEventListener("keydown", function (e) {
+
+	 switch (e.keyCode) {
+		 case 37:
+		 if (currentLocationOfHorse % widthOfBoard !== 0) {
+			 tryToMove("left");
+		 } //if
+		 break;
+		 case 38: 
+		  if (currentLocationOfHorse - widthOfBoard >= 0) {
+			 tryToMove("up");
+		  }
+		   break;
+		 case 39:
+		 if (currentLocationOfHorse  % (widthOfBoard - 1) < widthOfBoard -1 ) {
+			 tryToMove("right");
+		 }
+		  break;
+		 case 40:
+		  if (currentLocationOfHorse + widthOfBoard < widthOfBoard * widthOfBoard ) {
+			 tryToMove("down");
+		  }
+		   break;
+	 } //switch
+		 
+ }); //eventListener
+ 
+  //load levels 0 - max level
+ function loadLevel () {
+	 let levelMap= levels[currentLevel];
+	 check2 = 0;
+	 check = 0;
+	 riderOn = false;
+	 
+	 //load board
+	 for (i = 0; i < gridBoxes.length; i++) {
+		 gridBoxes[i].className = levelMap[i];
+		 if (levelMap[i].includes("horse")) { currentLocationOfHorse = i; }
+	 }//for
+	 
+	 //load board
+	 for (i = 0; i < gridBoxes.length; i++) {
+		 gridBoxes[i].className = levelMap[i];
+		 if (levelMap[i].includes("animate")) {
+			 startLocationOfEnemy = i;
+			 currentLocationOfEnemy = startLocationOfEnemy;
+			 break;
+			 }
+		
+	 }//for
+	 
+	  for (i = 0; i < gridBoxes.length; i++) {
+		 gridBoxes[i].className = levelMap[i];
+		 if (levelMap[i].includes("enemy2")) {
+			 startLocationOfEnemy2 = i;
+			 currentLocationOfEnemy2 = startLocationOfEnemy2;
+			 break;
+			 }
+		
+	 }//for
+	 
+	 if (currentLevel >= 5) {
+		 speedOfEnemy = 550;
+		 speedOfEnemy2 = 550;
+	 }
+	 
+	  if (currentLevel >= 10) {
+		 speedOfEnemy = 400;
+		 speedOfEnemy2 = 400;
+	 }
+	 
+	  if (currentLevel >= 15) {
+		 speedOfEnemy = 300;
+		 speedOfEnemy2 = 300;
+	 }
+	 
+	 if (currentLevel == 17) {
+		 speedOfEnemy = 225;
+		 speedOfEnemy2 = 225;
+	 }
+	 
+	 //show messages, if applicable, based on level
+	 if (currentLevel % 5 == 0 && currentLevel != 0 && currentLevel != 20) {
+		message1 = "Greetings Traveler! Step on the chest to receive some nice prizes to help you on your journey! I'll keep your enemies at bay!";
+		message2 = "";
+		showLightBox(message1, message2);
+	 } else if (currentLevel == 18) {
+		 message1 = "HAHA! We've got them surrounded! Run travelers! Pick a door!";
+		 message2 = "";
+		 showLightBox(message1, message2);
+	 } else if (currentLevel == 19 || currentLevel == 20 || currentLevel == 21) {
+		 message1 = "You have made your choice traveler. Open the chest to determine your fate. Only 1 door leads to escape";
+		 message2 = "";
+		 showLightBox(message1, message2);
+		 document.getElementById("level").innerHTML = currentLevel;
+	 } //else if
+	 
+	 
+	 //store all boxes to animate for both enemies in an array
+	 animateBoxes = document.querySelectorAll(".animate");
+	 animateBoxes2 = document.querySelectorAll(".enemy2");
+	 let direction = animateBoxes[0].classList;
+	 let direction2 = animateBoxes2[0].classList;
+	 if (direction2[0] == "null") {
+		 check++;
+	 }
+	 if (direction[0] == "null") {
+		 check2++;
+	 }
+	 animateEnemy(animateBoxes, 0, direction[0]);
+	animateEnemy2(animateBoxes2, 0, direction2[0]);
+ } //loadLevel
+ 
+ // animate enemy left to right (could add up and down)
+ //boxes - array of grid boxes that include animation
+ // index - current location of animation
+ // direction - current direction of animation
+ function animateEnemy (boxes, index, direction) {
+	 
+	 if(boxes.length <= 0) {return;}
+	 let nextLocation = 0; //location we wish to move to
+	 let nextClass = ""; //class of location we wish to mvoe to
+	 switch (direction) {
+		 case "left": 
+		 
+		 if (turns > 0) {
+			  currentLocationOfEnemy--;
+		 } //if
+
+		 turns++;
+		 
+		 if (currentLocationOfEnemy == currentLocationOfHorse && playerLives == 0) {
+			  playerLives--;
+			document.getElementById("score1").innerHTML = playerLives;
+			 changeVisibility("startnewgame");
+			 gameOver.play();
+			document.getElementById("lose").style.display = "block";
+			clearTimeout(currentAnimation);
+			clearTimeout(currentAnimation2);
+			setTimeout (function () {
+			document.getElementById("lose").style.display = "none";
+			return;
+		}, 500);
+		 
+		 } else if (currentLocationOfEnemy  == currentLocationOfHorse && playerLives > 0) {
+			  playerLives--;
+		document.getElementById("score1").innerHTML = playerLives;
+		lostLife.play();
+		document.getElementById("leveldown").style.display = "block";
+		setTimeout (function () {
+			document.getElementById("leveldown").style.display = "none";
+			return;
+		}, 500);
+		 } //else if
+		 
+		 nextLocation = currentLocationOfEnemy -1;
+		  break;
+		  
+		 case "right":
+		 if (turns > 0) {
+		 currentLocationOfEnemy++;
+		 } //if
+		 
+		 turns++;
+		 
+		 //check if enemy hits horse and playerLives, end game if needed
+		 if (currentLocationOfEnemy == currentLocationOfHorse && playerLives == 0) {
+			  playerLives--;
+			  changeVisibility("startnewgame");
+			  gameOver.play();
+			document.getElementById("lose").style.display = "block";
+			clearTimeout(currentAnimation);
+			clearTimeout(currentAnimation2);
+			setTimeout (function () {
+			document.getElementById("lose").style.display = "none";
+			return;
+		}, 500);
+		     return; 
+			  //check if enemy hits horse and playerLives, end game if needed
+		 } else if (currentLocationOfEnemy == currentLocationOfHorse && playerLives > 0) {
+			 playerLives--;
+			document.getElementById("score1").innerHTML = playerLives;
+			lostLife.play();
+			document.getElementById("leveldown").style.display = "block";
+			setTimeout (function () {
+			document.getElementById("leveldown").style.display = "none";
+			return;
+		}, 500); 
+		
+		
+		 } //else if
+		 nextLocation = currentLocationOfEnemy + 1;
+		 break;
+		 case "up":
+			if (turns > 0) {
+		    currentLocationOfEnemy -=5;
+			} //if
+			turns++;
+			 //check if enemy hits horse and playerLives, end game if needed
+			 if (currentLocationOfEnemy  == currentLocationOfHorse && playerLives == 0) {
+				  playerLives--;
+				document.getElementById("score1").innerHTML = playerLives;
+				 changeVisibility("startnewgame");
+				 gameOver.play();
+				document.getElementById("lose").style.display = "block";
+				clearTimeout(currentAnimation);
+				clearTimeout(currentAnimation2);
+				setTimeout (function () {
+				document.getElementById("lose").style.display = "none";
+				return;
+			}, 500);
+			  //check if enemy hits horse and playerLives, end game if needed
+			 } else if (currentLocationOfEnemy  == currentLocationOfHorse && playerLives > 0) {
+				playerLives--;
+				document.getElementById("score1").innerHTML = playerLives;
+				lostLife.play();
+				document.getElementById("leveldown").style.display = "block";
+				setTimeout (function () {
+				document.getElementById("leveldown").style.display = "none";
+					return;
+				}, 500);
+				nextLocation = currentLocationOfEnemy - widthOfBoard;
+			 }
+			 break;
+		 
+		 case "down":
+		 if (turns > 0) {
+		 currentLocationOfEnemy += 5;
+		 }
+		 turns++;
+		  //check if enemy hits horse and playerLives, end game if needed
+		  if (currentLocationOfEnemy  == currentLocationOfHorse && playerLives == 0) {
+			  playerLives--;
+			document.getElementById("score1").innerHTML = playerLives;
+			 changeVisibility("startnewgame");
+			 gameOver.play();
+			document.getElementById("lose").style.display = "block";
+			clearTimeout(currentAnimation);
+			clearTimeout(currentAnimation2);
+			setTimeout (function () {
+			document.getElementById("lose").style.display = "none";
+			return;
+		}, 500);
+		  //check if enemy hits horse and playerLives, end game if needed
+		 } else if (currentLocationOfEnemy == currentLocationOfHorse && playerLives > 0) {
+			  playerLives--;
+		document.getElementById("score1").innerHTML = playerLives;
+		lostLife.play();
+		document.getElementById("leveldown").style.display = "block";
+		setTimeout (function () {
+			document.getElementById("leveldown").style.display = "none";
+			return;
+		}, 500);
+		  nextLocation = currentLocationOfEnemy + widthOfBoard;
+		 break;
+		 } //else if
+
+	 } // switch
+
+	 //update images
+	 if (direction =="right") {
+	
+		 boxes[index].classList.add("enemyright");
+	 } else if (direction == "left") {
+		
+		 boxes[index].classList.add("enemyleft");
+	 } else if (direction == "up") {
+	
+		 boxes[index].classList.add("enemyup");
+	 } else if (direction == "down") {
+
+		 boxes[index].classList.add("enemydown");
+	 }
+	 
+	 //remove images from other boxes
+	 for (i = 0; i < boxes.length; i++) {
+		if (i != index) {
+		boxes[i].classList.remove("enemyleft");
+		boxes[i].classList.remove("enemyright");
+		boxes[i].classList.remove("enemyup");
+		boxes[i].classList.remove("enemydown");
+		}//if
+	 } //for
+	 // moving right
+	 
+	 if (direction == "right" || direction == "down") {
+		 // turn around if right side hit
+		 if (index == boxes.length -1) {
+			 index--;
+			direction == "right" ? direction = "left": direction = "up";
+			 
+		 } else {
+			 index++;
+		 } //else
+	} else if (direction == "left" || direction == "up") {
+			 //turn around if left side hit
+			 if (index == 0) {
+				 index++;
+				 direction == "left" ? direction = "right" : direction = "down";
+			 
+			} else {
+				index--;
+			} //else
+	} // else if
+	 currentAnimation = setTimeout (function() {
+		 animateEnemy(boxes, index, direction);
+	 }, speedOfEnemy);
+ } //animateEnemy
+
+// animate second enemy
+ function animateEnemy2 (boxes, index, direction) {
+	 
+	 if (direction == "null") {
+		return; 
+	 } //if
+	 
+	 if(boxes.length <= 0) {
+		 return;
+		 } //if
+	 let nextLocation = 0; //location we wish to move to
+	 let nextClass = ""; //class of location we wish to mvoe to
+	 
+	 switch (direction) {
+		 case "left": 
+		 if (turns2 > 0) {
+			  currentLocationOfEnemy2--;
+		 }
+		 turns2++;
+		  //check if enemy hits horse and playerLives, end game if needed
+		 if (currentLocationOfEnemy2 == currentLocationOfHorse && playerLives == 0) {
+			  playerLives--;
+			   
+				document.getElementById("score1").innerHTML = playerLives;
+				changeVisibility("startnewgame");
+				gameOver.play();
+			document.getElementById("lose").style.display = "block";
+			clearTimeout(currentAnimation);
+			clearTimeout(currentAnimation2);
+			setTimeout (function () {
+			document.getElementById("lose").style.display = "none";
+			return;
+		}, 500);
+		 //check if enemy hits horse and playerLives, end game if needed
+		 } else if (currentLocationOfEnemy2  == currentLocationOfHorse && playerLives > 0) {
+			  playerLives--;
+				
+				document.getElementById("score1").innerHTML = playerLives;
+			lostLife.play();
+			document.getElementById("leveldown").style.display = "block";
+			setTimeout (function () {
+			document.getElementById("leveldown").style.display = "none";
+			return;
+		}, 500);
+		 } //else if
+		 nextLocation = currentLocationOfEnemy2 -1;
+		  break;
+		 case "right":
+		 if (turns2 > 0) {
+		 currentLocationOfEnemy2++;
+		 } //if
+		
+		 turns2++;
+		  //check if enemy hits horse and playerLives, end game if needed
+		 if (currentLocationOfEnemy2 == currentLocationOfHorse && playerLives == 0) {
+			  playerLives--;
+				document.getElementById("score1").innerHTML = playerLives;
+			  changeVisibility("startnewgame");
+			  gameOver.play();
+			document.getElementById("lose").style.display = "block";
+			clearTimeout(currentAnimation);
+			clearTimeout(currentAnimation2);
+			setTimeout (function () {
+			document.getElementById("lose").style.display = "none";
+			return;
+		}, 500);
+		     return; 
+			  //check if enemy hits horse and playerLives, end game if needed
+		 } else if (currentLocationOfEnemy2 == currentLocationOfHorse && playerLives > 0) {
+			  playerLives--;
+				document.getElementById("score1").innerHTML = playerLives;
+				lostLife.play();
+				document.getElementById("leveldown").style.display = "block";
+			setTimeout (function () {
+			document.getElementById("leveldown").style.display = "none";
+			return;
+		}, 500); 
+		
+		 } //else if
+		 nextLocation = currentLocationOfEnemy2 + 1;
+		 break;
+		 case "up":
+			if (turns2 > 0) {
+		    currentLocationOfEnemy2 -=5;
+			} //if 
+			turns2++;
+			 //check if enemy hits horse and playerLives, end game if needed
+			 if (currentLocationOfEnemy2  == currentLocationOfHorse && playerLives == 0) {
+				  playerLives--;
+				document.getElementById("score1").innerHTML = playerLives;
+				changeVisibility("startnewgame");
+				gameOver.play();
+				document.getElementById("lose").style.display = "block";
+				clearTimeout(currentAnimation);
+				clearTimeout(currentAnimation2);
+				setTimeout (function () {
+				document.getElementById("lose").style.display = "none";
+				return;
+			}, 500);
+			  //check if enemy hits horse and playerLives, end game if needed
+			 } else if (currentLocationOfEnemy2  == currentLocationOfHorse && playerLives > 0) {
+				playerLives--;
+				document.getElementById("score1").innerHTML = playerLives;
+				lostLife.play();
+				document.getElementById("leveldown").style.display = "block";
+				setTimeout (function () {
+				document.getElementById("leveldown").style.display = "none";
+					return;
+				}, 500);
+				nextLocation = currentLocationOfEnemy2 - widthOfBoard;
+			 }
+			 break;
+		 
+		 case "down":
+		 if (turns2 > 0) {
+		 currentLocationOfEnemy2 += 5;
+		 }
+		 turns2++;
+		  //check if enemy hits horse and check playerLives, end game if needed
+		  if (currentLocationOfEnemy2  == currentLocationOfHorse && playerLives == 0) {
+			  playerLives--;
+			document.getElementById("score1").innerHTML = playerLives;
+			 changeVisibility("startnewgame");
+			 gameOver.play();
+			document.getElementById("lose").style.display = "block";
+			clearTimeout(currentAnimation);
+			clearTimeout(currentAnimation2);
+			setTimeout (function () {
+			document.getElementById("lose").style.display = "none";
+			return;
+		}, 500);
+		  //check if enemy hits horse and playerLives, end game if needed
+		 } else if (currentLocationOfEnemy2 == currentLocationOfHorse && playerLives > 0) {
+			  playerLives--;
+		document.getElementById("score1").innerHTML = playerLives;
+		lostLife.play();
+		document.getElementById("leveldown").style.display = "block";
+		setTimeout (function () {
+			document.getElementById("leveldown").style.display = "none";
+			return;
+		}, 500);
+		  nextLocation = currentLocationOfEnemy2 + widthOfBoard;
+		 break;
+		 } //else if
+
+	 } // switch
+
+	 //update images
+	 if (direction =="right") {
+	
+		 boxes[index].classList.add("enemyright2");
+	 } else if (direction == "left") {
+		
+		 boxes[index].classList.add("enemyleft2");
+	 } else if (direction == "up") {
+	
+		 boxes[index].classList.add("enemyup2");
+	 } else if (direction == "down") {
+
+		 boxes[index].classList.add("enemydown2");
+	 }
+	 
+	 //remove images from other boxes
+	 for (i = 0; i < boxes.length; i++) {
+		if (i != index) {
+		boxes[i].classList.remove("enemyleft2");
+		boxes[i].classList.remove("enemyright2");
+		boxes[i].classList.remove("enemyup2");
+		boxes[i].classList.remove("enemydown2");
+		}//if
+	 } //for
+	 // moving right
+	 
+	 if (direction == "right" || direction == "down") {
+		 // turn around if right side hit
+		 if (index == boxes.length -1) {
+			 index--;
+			direction == "right" ? direction = "left": direction = "up";
+			 
+		 } else {
+			 index++;
+		 } //else
+	} else if (direction == "left" || direction == "up") {
+			 //turn around if left side hit
+			 if (index == 0) {
+				 index++;
+				 direction == "left" ? direction = "right" : direction = "down";
+			 
+			} else {
+				index--;
+			} //else
+	} // else if
+	 currentAnimation2 = setTimeout (function() {
+		 animateEnemy2(boxes, index, direction);
+	 }, speedOfEnemy2);
+	 
+ }
+ //try to move horse
+ function tryToMove (direction) {
+	 //location before move
+	 let oldLocation = currentLocationOfHorse;
+	 
+	 // class of location before move
+	 let oldClassName = gridBoxes[oldLocation].className;
+	 
+	 let nextLocation = 0; //location we wish to move to
+	 let nextClass = ""; //class of location we wish to mvoe to
+	 let newClass = ""; //new class to move to if successful
+	 
+	 let nextLocation2 = 0; //location we wish to move to
+	 let nextClass2 = ""; //class of location we wish to mvoe to
+	 
+	 
+	 switch (direction) {
+		 case "left": 
+		 nextLocation = currentLocationOfHorse -1;
+		  break;
+		 case "right":
+		 nextLocation = currentLocationOfHorse + 1;
+		  break;
+		 case "up":
+		 nextLocation = currentLocationOfHorse - widthOfBoard;
+		  break;
+		 case "down":
+		  nextLocation = currentLocationOfHorse + widthOfBoard;
+		 break;
+	 } // switch
+	 
+	 //make sure user can't go past edge of gameboard by going right
+	 if ((nextLocation == [0] || nextLocation == [5] ||nextLocation == [10] || nextLocation == [15] ||  nextLocation == [20]) && direction == "right") {
+		nextClass = gridBoxes[currentLocationOfHorse].className;
+		return;
+	}
+	
+	//make sure user can't enter the non existent square 25
+	if (nextLocation != 25) {
+	 nextClass = gridBoxes[nextLocation].className;
+	} else {
+		return;
+	}
+	 
+	 // if obstacle not passable, dont move
+	 if(noPassObstacles.includes(nextClass)) { return; }
+	 
+	 
+	 // if its a fence and there is no rider, dont move
+	 if (!riderOn && nextClass.includes("fence")) {return;}
+	 
+	 //if there is a fence and the rider is on then move horse two spaces and animate
+	 if (nextClass.includes("fence")){
+
+		 //rider must be on to jump
+		 if(riderOn) {
+			gridBoxes[currentLocationOfHorse].className = "";
+			oldClassName = gridBoxes[nextLocation].className;
+			 let nextClass2 = currentLocationOfHorse + 2;
+			 nextClass = gridBoxes[currentLocationOfHorse + 1].className;
+			
+			if (noPassObstacles.includes(gridBoxes[nextLocation - 1].className) && gridBoxes[nextLocation].className == "fenceup") {
+				gridBoxes[oldLocation].className = "horserideleft";
+				return;
+			} else if (noPassObstacles.includes(gridBoxes[nextLocation + 1].className)&& gridBoxes[nextLocation].className == "fenceup") {
+				gridBoxes[oldLocation].className = "horserideright";
+				return;
+			} //else if
+			
+			//make sure user can't perform illegal jump on non passable objects and in the wrong direction
+		    if ((direction == "up" || direction == "down") && gridBoxes[nextLocation].className == "fenceup") {
+				gridBoxes[currentLocationOfHorse].className = "horseride" + direction;
+				return;
+			} else if ((direction == "right" || direction == "left") && gridBoxes[nextLocation].className == "fenceside") {
+				gridBoxes[currentLocationOfHorse].className = "horseride" + direction;
+				return;
+			} else if (direction == "left" && !noPassObstacles.includes(gridBoxes[nextLocation - 1].className)) {
+				nextLocation2 = nextLocation -1;
+				nextClass = "jumpleft";
+				nextClass2 = "horserideleft";
+			} else if (direction == "right" && !noPassObstacles.includes(gridBoxes[nextLocation + 1].className)) {
+				nextLocation2 = nextLocation + 1;
+				nextClass = "jumpright";
+				nextClass2 = "horserideright";
+			} else if (direction == "up" && !noPassObstacles.includes(gridBoxes[nextLocation - widthOfBoard].className)) {
+				nextLocation2 = nextLocation - widthOfBoard;
+				nextClass = "jumpup";
+				nextClass2 = "horserideup";
+			} else if (direction == "down" && !noPassObstacles.includes(gridBoxes[nextLocation + widthOfBoard].className)) {
+				nextLocation2 = nextLocation + widthOfBoard;
+				nextClass = "jumpdown";
+				nextClass2 = "horseridedown";
+				
+			} 
+			
+		
+			
+			//show horse jumping
+			gridBoxes[nextLocation].className = nextClass;
+			setTimeout (function() {
+				
+				//set jump back to a fence
+				gridBoxes[nextLocation].className = oldClassName;
+				
+				//update current location of horse to be 2 spaces past take off
+				currentLocationOfHorse = nextLocation2;
+				
+				//get class of box after jump
+				
+				nextClass = gridBoxes[currentLocationOfHorse].className;
+				
+				// show horse and rider after landing
+				gridBoxes[currentLocationOfHorse].className = nextClass2;
+				
+				// if next box is a flag, go up a level
+				levelUp(nextClass);
+				
+			}, 350);
+			return;
+		} // if rider is on
+		 
+	 } // if class has fence
+	 
+	 	
+	// if its a chest, add lives depending on level
+	if (nextClass.includes("chest") && currentLevel == 5) {
+		playerLives++;
+		document.getElementById("score1").innerHTML = playerLives;
+		powerUp.play();
+		document.getElementById("addlife").style.display = "block";
+		setTimeout (function () {
+			document.getElementById("addlife").style.display = "none";
+		}, 500);
+	} else if (nextClass.includes("chest") && currentLevel == 10) {
+		playerLives +=2;
+		document.getElementById("score1").innerHTML = playerLives;
+		powerUp.play();
+		document.getElementById("addlife2").style.display = "block";
+		setTimeout (function () {
+			document.getElementById("addlife2").style.display = "none";
+		}, 500);
+	} else if (nextClass.includes("chest") && currentLevel == 15) {
+		playerLives +=3;
+		document.getElementById("score1").innerHTML = playerLives;
+		powerUp.play();
+		document.getElementById("addlife3").style.display = "block";
+		setTimeout (function () {
+			document.getElementById("addlife3").style.display = "none";
+		}, 500);
+		//messages for chests in the 3 doors
+	} else if (nextClass.includes("chest") && currentLevel == 19) {
+		currentLocationOfEnemy2 == currentLocationOfHorse;
+		gameOver.play();
+		message1 = "You have been trampled by Stephen, please try again";
+		message2 = "";
+		showLightBox(message1, message2);
+		changeVisibility("startnewgame");
+	}else if (nextClass.includes("chest") && currentLevel == 20) {
+		currentLocationOfEnemy = currentLocationOfHorse;
+		gameOver.play();
+		message1 = "You have been trampled by Rudolph, please try again";
+		message2 = "";
+		showLightBox(message1, message2);
+		changeVisibility("startnewgame");
+	}	else if (nextClass.includes("chest") && currentLevel == 21) {
+		currentLocationOfEnemy = currentLocationOfHorse;
+		win.play();
+		message1 = "YOU ESCAPED! YOU WIN! GREAT JOB TRAVELER!!!!!";
+		message2 = "";
+		showLightBox(message1, message2);
+		changeVisibility("startnewgame");
+	}							
+	
+	//if nextLocation is a door, change currentLevel depending on it
+	//door1 = lose
+	//door2 = lose
+	//door3 = win!
+	
+	if (nextClass.includes("door1")) {
+		turns = 0;
+		turns2 = 0;
+		levelup.play();
+	 document.getElementById("levelup").style.display = "block";
+	 clearTimeout(currentAnimation);
+	 clearTimeout(currentAnimation2);
+	 setTimeout (function() {
+	 document.getElementById("levelup").style.display = "none";
+	 currentLevel = 19;
+	 loadLevel();
+	 }, 1000);
+	} else if (nextClass.includes("door2")) {
+		turns = 0;
+		turns2 = 0;
+		levelup.play();
+	 document.getElementById("levelup").style.display = "block";
+	 clearTimeout(currentAnimation);
+	 clearTimeout(currentAnimation2);
+	 setTimeout (function() {
+	 document.getElementById("levelup").style.display = "none";
+	 currentLevel = 20;
+	 loadLevel();
+	 }, 1000);
+	}  else if (nextClass.includes("door3")) {
+		turns = 0;
+		turns2 = 0;
+		levelup.play();
+	 document.getElementById("levelup").style.display = "block";
+	 clearTimeout(currentAnimation);
+	 clearTimeout(currentAnimation2);
+	 setTimeout (function() {
+	 document.getElementById("levelup").style.display = "none";
+	 currentLevel = 21;
+	 loadLevel();
+	 }, 1000);
+	}//else if
+	
+	 //if user tries to hit flag without rider, wont work
+	  if (nextClass == "flag" && !riderOn && currentLevel % 5  != 0) {
+		return;
+	} else if (nextClass == "flag" && !riderOn && currentLevel % 5  == 0) {
+		 turns = 0;
+		 turns2 = 0;
+		 levelup.play();
+	 document.getElementById("levelup").style.display = "block";
+	 clearTimeout(currentAnimation);
+	 clearTimeout(currentAnimation2);
+	 setTimeout (function() {
+	 document.getElementById("levelup").style.display = "none";
+	 currentLevel++;
+	 document.getElementById("level").innerHTML = currentLevel;
+	 loadLevel();
+	 }, 1000);
+	} //else if
+	
+	
+	//if user picks up a heart, add a life
+	if (nextClass == "heart") {
+		playerLives++;
+		 powerUp.play();
+		 document.getElementById("score1").innerHTML = playerLives;
+	}
+
+
+	 // if there is a rider pick him up
+	 if (nextClass == "rider") {
+		 riderOn = true;
+	 } //if
+	 //if there is a bridge in the old location keep it
+	 if (oldClassName.includes("bridge")) {
+		 gridBoxes[oldLocation].className = "bridge";
+	 } else {
+		 gridBoxes[oldLocation].className = "";
+	 } //else
+	 
+	 //build name of new class
+	 newClass = (riderOn)? "horseride": "horse";
+	 newClass += direction;
+	
+	 //if there is a bridge in next location, keep it
+	if (gridBoxes[nextLocation].classList.contains("bridge")) {
+	 newClass += " bridge";
+	} //if
+	 //move one space
+	 currentLocationOfHorse = nextLocation;
+	 gridBoxes[currentLocationOfHorse].className = newClass;
+	
+	 // if it is an enemy, end game
+	 if (((currentLocationOfEnemy == currentLocationOfHorse && animateBoxes.length != 0 && check2 == 0) ||  (currentLocationOfEnemy2 == currentLocationOfHorse&& animateBoxes2.length !== 0 && check == 0)) && playerLives > 0 && (currentLevel % 5 != 0 || currentLevel == 0)) {
+		 playerLives--;
+		 document.getElementById("score1").innerHTML = playerLives;
+		 lostLife.play();
+		document.getElementById("leveldown").style.display = "block";
+		setTimeout (function () {
+			document.getElementById("leveldown").style.display = "none";
+		}, 500);
+	 } else if (nextClass.includes("enemy") && playerLives == 0) { 
+		 document.getElementById("score1").innerHTML = playerLives;
+		 changeVisibility("startnewgame");
+		 gameOver.play();
+		 document.getElementById("lose").style.display = "block";
+		clearTimeout(currentAnimation);
+		clearTimeout(currentAnimation2);
+		setTimeout (function () {
+			document.getElementById("lose").style.display = "none";
+		}, 500);
+	 } 
+	 // move up a level if needed
+	 levelUp(nextClass);
+	 
+ } //try to move
+  function showInstructions () {
+	message1 = "Welcome to Albert and Simon's Adventure. Click on the arrow keys to move Albert the horse in any direction. Pick up Simon in order to jump fences and level up! Don't run into Rudolph or Stephen though! Hint: Pick up hearts to gain lives! ";
+	message2 = "note: You can change the difficulty of your game in the first 3 levels, but after that no can do!";
+	showLightBox(message1,message2);
+}
+
+//show the different choices for difficulties
+function showDifficultyChoices() {
+	changeVisibility("difficulties");
+} //showDifficultyChoices
+ 
+ // increase difficulty if game is user chooses an option in dropdown menu
+ function increaseDifficulty(mode) {
+	 if (mode == "easy" && currentLevel <=3) {
+		 speedOfEnemy =  850;
+		 speedOfEnemy2 =  850;
+		 playerLives = 5;
+		 document.getElementById("score1").innerHTML = playerLives;
+		 return;
+	 } else if (mode == "medium"&& currentLevel <=3) {
+		 speedOfEnemy = 700;
+		 speedOfEnemy2 = 700;
+		 playerLives = 3;
+		 document.getElementById("score1").innerHTML = playerLives;
+	 }else if (mode == "hard"&& currentLevel <=3) {
+		 speedOfEnemy = 550;
+		 speedOfEnemy2 = 550;
+		 playerLives = 2;
+		 document.getElementById("score1").innerHTML = playerLives;
+		 return;
+	 }else if (mode == "extreme"&& currentLevel <=3) {
+		 speedOfEnemy = 400;
+		 speedOfEnemy2 = 400;
+		  playerLives = 1;
+		 document.getElementById("score1").innerHTML = playerLives;
+		 return;
+	 }else if (mode == "impossible"&& currentLevel <=3) {
+		 speedOfEnemy = 125;
+		 speedOfEnemy2 = 125;
+		  playerLives = 0;
+		 document.getElementById("score1").innerHTML = playerLives;
+		 return;
+	 } // else if
+ } //increaseDifficulty
+ 
+ //start a new game if user chooses to restart or loses
+ function startNewGame (mode) {
+	currentLevel = 0;
+	speedOfEnemy =  850;
+	speedOfEnemy2 =  850;
+	playerLives = 5;
+	turns = 0;
+	turns2 = 0;
+	check = 0;
+	check2 = 0;
+	clearTimeout(currentAnimation);
+	clearTimeout(currentAnimation2);
+	document.getElementById("score1").innerHTML = playerLives;
+	document.getElementById("level").innerHTML = currentLevel;
+	if (mode == "s") {
+	 changeVisibility("startnewgame");
+	} //if
+	 loadLevel();
+ } //startNewGame
+ 
+ //move up a level
+ function levelUp (nextClass) {
+	 if (nextClass == "flag" && riderOn && currentLevel < 21) {
+		 turns = 0;
+		 turns2 = 0;
+	 levelup.play();
+	 document.getElementById("levelup").style.display = "block";
+	 clearTimeout(currentAnimation);
+	 clearTimeout(currentAnimation2);
+	 setTimeout (function() {
+	 document.getElementById("levelup").style.display = "none";
+	 currentLevel++;
+	 document.getElementById("level").innerHTML = currentLevel;
+	 loadLevel();
+	 }, 1000);
+	} else if (currentLevel >= 21 && nextClass == "flag" && riderOn) {
+		changeVisibility("startnewgame");
+		document.getElementById("endgame").style.display = "block";
+		setTimeout (function () {
+			document.getElementById("endgame").style.display = "none";
+		}, 50);
+		clearTimeout(currentAnimation);
+		clearTimeout(currentAnimation2);
+		animateBoxes2 = [];
+		animateBoxes = [];
+		
+	} 
+ } //levelUp
+ 
+ //change visibility of lightbox
+function changeVisibility(divID) {
+	let element = document.getElementById(divID);
+	
+	// if element exits, switch it's class
+	// between hidden and unhidden
+	if (element) {
+		element.className = (element.className == 'hidden')?'unhidden':'hidden';
+		
+	} // if
+} //changeVisibility
+
+//display light box
+function showLightBox (message, message2) {
+	
+	//set messages
+	document.getElementById("message").innerHTML = message;
+	document.getElementById("message2").innerHTML = message2;
+	// show lightbox
+	
+	changeVisibility("lightbox");
+	changeVisibility("boundaryMessage");
+	
+} //showLightBox
+
+function continueGame () {
+	changeVisibility("lightbox");
+	changeVisibility("boundaryMessage");
+} //continue game
+
+//sounds
+function sound(src) {
+  this.sound = document.createElement("audio");
+  this.sound.src = src;
+  this.sound.setAttribute("preload", "auto");
+  this.sound.setAttribute("controls", "none");
+  this.sound.style.display = "none";
+  document.body.appendChild(this.sound);
+  this.play = function(){
+    this.sound.play();
+  }
+  this.stop = function(){
+    this.sound.pause();
+  }
+}

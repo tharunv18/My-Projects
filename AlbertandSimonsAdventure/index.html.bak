@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Albert and Simon's Adventure</title>
+    
+    <!-- include an external style sheet -->
+    <link rel="stylesheet" href="albert.css">  
+    
+    
+  </head>
+  
+  <body>
+  
+  
+  <h1 id = "header">Albert and Simon's Adventure</h1>
+  
+  
+		<div id = "gameBoard">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	   </div>
+	   
+	   <h2 id = "right"> Extra Lives: <span id = "score1">3</span></h2>
+	    <h2 id = "left"> Current Level: <span id = "level">0</span></h2>
+	   
+	   <div id = "startnewgame" class = "hidden" onclick = "startNewGame('s')"> Start New Game </div>
+	   
+	   <div class = "message" id = "lose"> Game Over </div>
+	   <div class = "message" id = "leveldown"> -1 Life </div>
+	    <div class = "message" id = "addlife"> +1 Life </div>
+		<div class = "message" id = "addlife2"> +2 Lives </div>
+		<div class = "message" id = "addlife3"> +3 Lives </div>
+	   <div class = "message" id = "levelup"> Next level...</div>
+	   <div class = "message" id = "endgame"> End Game</div>
+	   
+	<div id = "controlpanel">
+		<div onclick = "showInstructions()" id = "instructions" class = "controls"> Instructions </div> 
+		<div onclick = "showDifficultyChoices()" id = "stop" class = "controls"> Difficulty </div> 
+		<div onclick = "startNewGame('r')" id = "start" class = "controls"> Restart Game </div> 
+	</div>
+	
+	<div class = "hidden" id = "difficulties">
+	   <div onclick = "increaseDifficulty('easy')" id = "difficulty" > Easy </div> 
+	   <div onclick = "increaseDifficulty('medium')" id = "difficulty2" > Medium </div> 
+	   <div onclick = "increaseDifficulty('hard')" id = "difficulty3"> Hard </div> 
+	   <div onclick = "increaseDifficulty('extreme')" id = "difficulty4"> Extreme </div> 
+	   <div onclick = "increaseDifficulty('impossible')" id = "difficulty5"> Impossible </div> 
+	</div>
+	   
+	   
+	   <div id = "lightbox" class = "hidden"></div>
+ 
+ 
+	<div id = "positionMessage"> 
+	<div id = "boundaryMessage" class = "hidden">
+		<img id = "x" src = "images/x.png" alt = "close" onclick = "continueGame()" >
+		<h1 class = "titletext" id = "message"> &nbsp; </h1>
+		<p class = "titletext" id = "message2"></p>
+		</div>
+	</div>
+
+		<!-- include an external JavaScript file -->
+    <script src="tets.js"></script>
+   
+  </body>
+  
+</html>
