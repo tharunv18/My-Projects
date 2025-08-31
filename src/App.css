@@ -1,0 +1,119 @@
+/* Note Ninja Global Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #e3b8f9;
+  color: #222;
+}
+
+@media (max-width: 767px) {
+  body {
+    background: #181818 !important;
+  }
+}
+
+.bg-sour-lavender {
+  background: #e3b8f9;
+}
+
+.note-ninja-heading {
+  font-family: 'Inknut Antiqua', serif;
+  letter-spacing: 1px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: linear-gradient(135deg, #e3b8f9 0%, #c895f2 100%);
+}
+::-webkit-scrollbar-thumb {
+  background: #e3b8f9;
+  border-radius: 8px;
+}
+
+/* Mini Player Styles */
+.mini-player-enter {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.mini-player-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 300ms ease-in-out;
+}
+
+.mini-player-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.mini-player-exit-active {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+/* Progress Bar Hover Effect */
+.progress-bar {
+  position: relative;
+  cursor: pointer;
+}
+
+.progress-bar:hover::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  background: rgba(94, 42, 132, 0.1);
+  border-radius: 9999px;
+}
+
+/* Glow Effects */
+.mini-player-glow {
+  box-shadow: 0 0 20px rgba(227, 184, 249, 0.2),
+              0 0 40px rgba(227, 184, 249, 0.1);
+}
+
+.play-button-glow {
+  box-shadow: 0 0 10px rgba(94, 42, 132, 0.3);
+}
+
+/* Volume Control */
+.volume-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 2px;
+  background: #e3b8f9;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #5E2A84;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.volume-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+/* Time Display */
+.time-display {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+.has-back-btn main,
+.has-back-btn .main-content,
+.has-back-btn .page-content {
+  margin-top: 64px !important;
+} 
