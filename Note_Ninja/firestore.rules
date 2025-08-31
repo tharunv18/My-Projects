@@ -1,0 +1,145 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Users: Only allow users to read/write their own user document
+    match /users/{userId} {
+      allow read, write: if isOwner(userId);
+    }
+
+    // Student info: Allow any authenticated user to read, but only write their own info
+    match /students/{userId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Study Guides: Anyone can read, only authenticated users can write
+    match /studyGuides/{guideId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+
+      match /chapters/{chapterId} {
+        allow read: if true;
+        allow write: if request.auth != null;
+
+        match /notes/{noteId} {
+          allow read: if true;
+          allow write: if request.auth != null;
+        }
+      }
+    }
+
+    // Notes subcollection under chapters of a study guide
+    match /studyGuides/{guideId}/chapters/{chapterId}/notes/{noteId} {
+      allow read: if true;
+      allow write: if isAuthenticated();
+    }
+
+    // Notes collection (for DownloadNotesPage)
+    match /notes/{noteId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Downloads subcollection under notes
+    match /notes/{noteId}/downloads/{downloadId} {
+      allow read: if true;
+      allow write: if isAuthenticated();
+    }
+
+    // Allow collection group queries on 'downloads'
+    match /{path=**}/downloads/{downloadId} {
+      allow read: if true;
+    }
+
+    // Pending Notes: Only uploader can read, any authenticated user can write
+    match /pendingNotes/{noteId} {
+      allow read: if isAuthenticated() && resource.data.uploaderId == request.auth.uid;
+      allow write: if isAuthenticated();
+    }
+
+    // Album Notes: Anyone can read, only authenticated users can write
+    match /albumNotes/{noteId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Audio Notes: Anyone can read, only authenticated users can write
+    match /audioNotes/{noteId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Course Likes: Anyone can read, only authenticated users can write
+    match /courseLikes/{courseId} {
+      allow read: if true;
+      allow write: if isAuthenticated();
+    }
+
+    // User Likes: Only allow users to read/write their own like document
+    match /userLikes/{userId} {
+      allow read, write: if isOwner(userId);
+    }
+
+    // Course Requests: Anyone can read, only authenticated users can write
+    match /courseRequests/{requestId} {
+      allow read: if true;
+      allow write: if isAuthenticated();
+    }
+
+    // My Notes subcollection under students
+    match /students/{userId}/myNotes/{noteId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // User Downloads: Allow users to read and create their own download records
+    match /userDownloads/{downloadId} {
+      allow read: if request.auth != null && request.auth.uid == resource.data.userId;
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.userId;
+    }
+
+    // Saved Notes: Anyone can read (for public profiles), only authenticated users can write their own
+    match /savedNotes/{noteId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Add collection group index for notes
+    match /{path=**}/notes/{noteId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}
+
+// Add these indexes in the Firebase Console:
+// 1. Collection Group Index:
+//    Collection: notes
+//    Field: uploader, Ascending
+//
+// 2. Composite Index:
+//    Collection: savedNotes
+//    Field: userIdentifier, Ascending 
+
+// IMPORTANT: For audio files to work properly, configure Firebase Storage CORS rules:
+// 
+// 1. Install Firebase CLI: npm install -g firebase-tools
+// 2. Create a cors.json file with:
+//    [
+//      {
+//        "origin": ["http://localhost:5173", "http://localhost:5174", "http://localhost:5175", "http://localhost:5176"],
+//        "method": ["GET", "HEAD"],
+//        "maxAgeSeconds": 3600
+//      }
+//    ]
+// 3. Run: gsutil cors set cors.json gs://note-ninja-856f6.appspot.com
+// 4. Or use Firebase Console: Storage > Rules > Add CORS configuration 
