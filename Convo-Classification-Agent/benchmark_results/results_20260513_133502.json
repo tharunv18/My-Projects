@@ -1,0 +1,87 @@
+{
+  "config": {
+    "datasets": [
+      "category_B_implicit_sensitive.json"
+    ],
+    "model": "deepseek-ai/DeepSeek-V3",
+    "approaches": [
+      "ensemble"
+    ],
+    "num_samples": 7
+  },
+  "summary": {
+    "ensemble": {
+      "accuracy": 0.4286,
+      "precision": 1.0,
+      "recall": 0.4286,
+      "f1": 0.6,
+      "confusion_matrix": {
+        "true_positive": 3,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 4
+      },
+      "total_samples": 7,
+      "positive_samples": 7,
+      "negative_samples": 0
+    }
+  },
+  "predictions": [
+    {
+      "id": "B-4",
+      "true_label": "HIGH_RISK",
+      "ensemble_pred": "HIGH_RISK",
+      "ensemble_confidence": 0.65,
+      "ensemble_reasoning": "Three analysts independently assessed overall risk as MEDIUM based on convergent evidence of high isolation, preparatory behaviors, and limited support system. While no critical HIGH indicators were present, the accumulation of multiple MEDIUM ratings across emotional, contextual, and behavioral domains warrants NOT_HIGH_RISK classification rather than HIGH_RISK, particularly given protective factors including therapeutic engagement and absence of means access.",
+      "ensemble_latency": 64.96
+    },
+    {
+      "id": "B-5",
+      "true_label": "HIGH_RISK",
+      "ensemble_pred": "HIGH_RISK",
+      "ensemble_confidence": 0.85,
+      "ensemble_reasoning": "While linguistic and behavioral analyses show low immediate risk, the emotional analyst's report of persistent high hopelessness and isolation converges with contextual findings of limited support system and career struggles. The patient maintains therapeutic engagement as a protective factor, but the accumulation of medium-risk indicators across emotional and contextual domains warrants close monitoring rather than high-risk classification.",
+      "ensemble_latency": 68.86
+    },
+    {
+      "id": "B-6",
+      "true_label": "HIGH_RISK",
+      "ensemble_pred": "NOT_HIGH_RISK",
+      "ensemble_confidence": 0.75,
+      "ensemble_reasoning": "While the patient shows concerning levels of emotional isolation and limited social support across multiple domains, there are no high-risk indicators in critical areas and strong protective factors including a therapeutic alliance and safety-seeking behaviors. The absence of preparatory behaviors, self-harm indicators, or access to means supports a NOT_HIGH_RISK classification.",
+      "ensemble_latency": 46.8
+    },
+    {
+      "id": "B-7",
+      "true_label": "HIGH_RISK",
+      "ensemble_pred": "NOT_HIGH_RISK",
+      "ensemble_confidence": 0.75,
+      "ensemble_reasoning": "While the patient exhibits significant emotional distress with high isolation and declining support system, there are no critical high-risk indicators present. Multiple medium-risk assessments are balanced by strong protective factors including therapeutic engagement, structured coping mechanisms, and absence of access to means or previous attempts.",
+      "ensemble_latency": 41.94
+    },
+    {
+      "id": "B-8",
+      "true_label": "HIGH_RISK",
+      "ensemble_pred": "NOT_HIGH_RISK",
+      "ensemble_confidence": 0.6,
+      "ensemble_reasoning": "While no single critical indicator reaches HIGH risk level, multiple convergent MEDIUM risk findings across linguistic, emotional, contextual, and behavioral domains collectively warrant HIGH_RISK classification. The patient demonstrates significant isolation, preparatory behaviors, and hopelessness patterns that require immediate clinical attention despite some protective factors.",
+      "ensemble_latency": 49.25
+    },
+    {
+      "id": "B-9",
+      "true_label": "HIGH_RISK",
+      "ensemble_pred": "HIGH_RISK",
+      "ensemble_confidence": 0.7,
+      "ensemble_reasoning": "The patient demonstrates convergent high-risk indicators including severe isolation, preparatory digital cleanup behaviors intended to prevent burdening others, and exclusive reliance on therapeutic support. While no direct threats or plan rehearsal language exists, the combination of HIGH ratings in contextual isolation and behavioral preparatory actions, plus MEDIUM ratings in linguistic patterns and emotional state, collectively warrant HIGH_RISK classification under the accumulation rule.",
+      "ensemble_latency": 58.12
+    },
+    {
+      "id": "B-10",
+      "true_label": "HIGH_RISK",
+      "ensemble_pred": "NOT_HIGH_RISK",
+      "ensemble_confidence": 0.65,
+      "ensemble_reasoning": "Three of four analysts report MEDIUM or HIGH overall risk, with convergent evidence of severe social isolation, withdrawal from human connection, and help-rejection behaviors. The garden abandonment metaphor combined with explicit preference for solitude over human interaction represents significant disengagement patterns that warrant HIGH_RISK classification despite the absence of overt suicidal language.",
+      "ensemble_latency": 45.31
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "config": {
+    "datasets": [
+      "category_A_explicit_sensitive.json",
+      "category_B_implicit_sensitive.json",
+      "category_C_nonsensitive.json"
+    ],
+    "model": "deepseek-ai/DeepSeek-V3",
+    "approaches": [
+      "single_cot"
+    ],
+    "num_samples": 45
+  },
+  "summary": {
+    "single_cot": {
+      "accuracy": 0.8444,
+      "precision": 1.0,
+      "recall": 0.7667,
+      "f1": 0.8679,
+      "confusion_matrix": {
+        "true_positive": 23,
+        "true_negative": 15,
+        "false_positive": 0,
+        "false_negative": 7
+      },
+      "total_samples": 45,
+      "positive_samples": 30,
+      "negative_samples": 15
+    }
+  },
+  "predictions": [
+    {
+      "id": "A-1",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Passive suicidal ideation ('not wake up at all') with escalating hopelessness and dismissal of support, indicating high self-harm risk despite some ambivalence.",
+      "single_cot_latency": 10.2
+    },
+    {
+      "id": "A-2",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Explicit suicidal ideation ('end it') with functional impairment, emotional collapse patterns, and rejection of all coping mechanisms indicates high self-harm risk requiring immediate intervention.",
+      "single_cot_latency": 11.03
+    },
+    {
+      "id": "A-3",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Patient expresses passive suicidal ideation ('want to disappear,' 'not exist') with profound hopelessness about future and inability to see survival path, indicating high self-harm risk requiring immediate clinical attention.",
+      "single_cot_latency": 14.19
+    },
+    {
+      "id": "A-4",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Explicit passive suicidal ideation ('want to not wake up', 'want to end it') combined with profound hopelessness, financial crisis, and energy depletion constitutes high risk requiring immediate clinical attention.",
+      "single_cot_latency": 14.04
+    },
+    {
+      "id": "A-5",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.92,
+      "single_cot_reasoning": "Explicit statements of self-harm intent and suicidal ideation combined with acute grief, isolation, and hopelessness constitute high risk requiring immediate clinical attention.",
+      "single_cot_latency": 13.91
+    },
+    {
+      "id": "A-6",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Patient expresses explicit passive suicidal ideation with resignation about caregiving burden, indicating high self-harm risk despite protective factors of being in therapy.",
+      "single_cot_latency": 16.49
+    },
+    {
+      "id": "A-7",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Explicit suicidal ideation with plan ('take some pills'), severe hopelessness, and isolation outweigh minimal protective factors, meeting criteria for high risk.",
+      "single_cot_latency": 16.03
+    },
+    {
+      "id": "A-8",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Explicit suicidal ideation with rationalization tied to dementia progression, resignation ('I will just wait'), and rejection of support indicates high self-harm risk.",
+      "single_cot_latency": 9.57
+    },
+    {
+      "id": "A-9",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.92,
+      "single_cot_reasoning": "Patient expresses explicit self-harm intent ('i just want to hurt myself') amid catastrophic life circumstances and profound hopelessness, with minimal protective factors present.",
+      "single_cot_latency": 9.01
+    },
+    {
+      "id": "A-10",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.92,
+      "single_cot_reasoning": "Explicit suicidal ideation with specific time reference ('not wake up tomorrow') combined with profound hopelessness, grief, and rejection of support constitutes high risk requiring immediate intervention.",
+      "single_cot_latency": 12.83
+    },
+    {
+      "id": "A-11",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Explicit passive suicidal ideation with hopelessness and rejection of support, combined with a severe stressor, indicates high risk for self-harm.",
+      "single_cot_latency": 11.99
+    },
+    {
+      "id": "A-12",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Patient expresses explicit passive suicidal ideation ('disappear', 'not be here anymore') with profound hopelessness, exhaustion, and rejection of support systems following a major life trauma, indicating high risk for self-harm.",
+      "single_cot_latency": 12.26
+    },
+    {
+      "id": "A-13",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Patient expresses explicit self-harm ideation with passive suicidal thoughts ('not be here') while experiencing complete functional breakdown and severe isolation, meeting multiple high-risk criteria despite being in therapy.",
+      "single_cot_latency": 9.49
+    },
+    {
+      "id": "A-14",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Explicit suicidal ideation ('maybe I should just kill myself') combined with active distress, hopelessness, and rejection of social support constitutes high risk requiring immediate clinical attention.",
+      "single_cot_latency": 9.96
+    },
+    {
+      "id": "A-15",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Explicit suicidal ideation ('disappear and not exist anymore') with significant emotional distress and isolation, outweighing minimal protective factors.",
+      "single_cot_latency": 8.77
+    },
+    {
+      "id": "B-1",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.68,
+      "single_cot_reasoning": "The patient demonstrates passive resignation, preoccupation with minimizing post-absence burdens, and isolation, leaning toward high risk due to ambiguous but concerning undertones; no explicit plans or acute crisis, but erring on caution.",
+      "single_cot_latency": 16.04
+    },
+    {
+      "id": "B-2",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.65,
+      "single_cot_reasoning": "The transcript shows passive distress, isolation, and burden-related themes with indirect end-of-life references, but no explicit plans or acute crisis indicators; protective factors like planning and therapy engagement are present but limited.",
+      "single_cot_latency": 14.2
+    },
+    {
+      "id": "B-3",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.68,
+      "single_cot_reasoning": "Urgent decluttering with farewell undertones ('dont want to burden anyone') and persistent emotional distress despite action suggests passive suicidal ideation risk, though no explicit plans or means.",
+      "single_cot_latency": 7.38
+    },
+    {
+      "id": "B-4",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.68,
+      "single_cot_reasoning": "Patient shows indirect indicators of potential self-harm through preoccupation with post-absence planning and isolation, but lacks explicit plans or acute crisis markers; protective factors are weak but present through therapy engagement.",
+      "single_cot_latency": 15.84
+    },
+    {
+      "id": "B-5",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.68,
+      "single_cot_reasoning": "Patient demonstrates severe hopelessness, emotional resignation, and isolation with drowning metaphors suggesting crisis-level distress, though no explicit self-harm or suicide references are present.",
+      "single_cot_latency": 12.83
+    },
+    {
+      "id": "B-6",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.9,
+      "single_cot_reasoning": "No evidence of self-harm, crisis, violence, or abuse indicators; conversation focuses on practical problem-solving with emotional undertones of overwhelm but strong protective factors.",
+      "single_cot_latency": 10.54
+    },
+    {
+      "id": "B-7",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.8,
+      "single_cot_reasoning": "The transcript shows mild distress and isolation but lacks concrete evidence of high-risk indicators like self-harm, crisis, violence, or abuse; protective factors like therapy engagement and structured coping are present, leading to a NOT_HIGH_RISK classification.",
+      "single_cot_latency": 18.23
+    },
+    {
+      "id": "B-8",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.68,
+      "single_cot_reasoning": "Patient shows significant disconnection from home, possessions, and social relationships with themes of emptiness and isolation, suggesting passive suicidal ideation risk, but lacks explicit self-harm plans or acute crisis indicators.",
+      "single_cot_latency": 14.91
+    },
+    {
+      "id": "B-9",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.68,
+      "single_cot_reasoning": "Indirect self-harm indicators through farewell-like digital cleanup and isolation, with resignation undertones, but no explicit plans or acute crisis elements.",
+      "single_cot_latency": 13.46
+    },
+    {
+      "id": "B-10",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "HIGH_RISK",
+      "single_cot_confidence": 0.68,
+      "single_cot_reasoning": "Metaphorical language about abandoning garden reflects significant emotional distress and social withdrawal, but no direct evidence of self-harm, violence, or abuse. Represents general mental health crisis with isolation and overwhelming feelings.",
+      "single_cot_latency": 11.97
+    },
+    {
+      "id": "B-11",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.65,
+      "single_cot_reasoning": "Patient shows depressive symptoms and social isolation but no direct evidence of self-harm, crisis, violence, or abuse. Engagement in practical problem-solving and therapy provides protective factors.",
+      "single_cot_latency": 13.31
+    },
+    {
+      "id": "B-12",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.65,
+      "single_cot_reasoning": "Patient shows signs of isolation, emotional burden, and self-deprecation but no explicit high-risk indicators like self-harm ideation, crisis, violence, or abuse. Protective factors include therapy engagement and task focus.",
+      "single_cot_latency": 15.06
+    },
+    {
+      "id": "B-13",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.82,
+      "single_cot_reasoning": "While the patient shows signs of isolation, emotional distress, and avoidance of future planning, there are no direct indicators of self-harm, crisis, violence, or abuse. The conversation focuses on practical problem-solving with therapeutic engagement.",
+      "single_cot_latency": 14.64
+    },
+    {
+      "id": "B-14",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.88,
+      "single_cot_reasoning": "Patient shows emotional distress and isolation but demonstrates strong protective factors including active help-seeking, concrete problem-solving, and therapeutic engagement with no evidence of self-harm, violence, abuse, or acute crisis indicators.",
+      "single_cot_latency": 12.32
+    },
+    {
+      "id": "B-15",
+      "true_label": "HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.82,
+      "single_cot_reasoning": "Patient shows significant distress and isolation but demonstrates strong protective factors including active help-seeking, therapeutic engagement, and future-oriented planning without specific indicators of self-harm, crisis, violence, or abuse.",
+      "single_cot_latency": 12.55
+    },
+    {
+      "id": "C-1",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "The transcript shows temporary frustration with a specific situation that resolves completely, with no evidence of self-harm, crisis, violence, or abuse indicators beyond normal situational stress.",
+      "single_cot_latency": 14.16
+    },
+    {
+      "id": "C-2",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "The patient's statements about wanting to die are hyperbolic expressions of work frustration that resolve completely once the technical problem is fixed, with no evidence of genuine suicidal ideation or other risk factors.",
+      "single_cot_latency": 14.34
+    },
+    {
+      "id": "C-3",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "The transcript shows temporary situational frustration about a minor logistical problem that is fully resolved, with no indicators of self-harm, mental health crisis, violence, or abuse.",
+      "single_cot_latency": 17.33
+    },
+    {
+      "id": "C-4",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "The transcript shows transient frustration over a technical issue with no evidence of self-harm, crisis, violence, or abuse; hyperbolic language is context-specific and resolves positively.",
+      "single_cot_latency": 12.52
+    },
+    {
+      "id": "C-5",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "Hyperbolic expressions of distress were situation-specific and immediately resolved when the email issue was clarified, with no evidence of actual self-harm intent, mental health crisis, violence, or abuse.",
+      "single_cot_latency": 12.37
+    },
+    {
+      "id": "C-6",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "The transcript shows hyperbolic but situational frustration about a chore, with no evidence of actual self-harm, crisis, violence, or abuse indicators; protective factors and resolution are present.",
+      "single_cot_latency": 11.96
+    },
+    {
+      "id": "C-7",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "The conversation demonstrates situational frustration about a baking project with no indicators of clinical risk factors, clear resolution, and multiple protective factors present.",
+      "single_cot_latency": 12.77
+    },
+    {
+      "id": "C-8",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.92,
+      "single_cot_reasoning": "Patient expresses intense frustration but demonstrates effective coping, problem-solving, and resolution of distress without indicators of self-harm, crisis, violence toward others, or abuse.",
+      "single_cot_latency": 11.88
+    },
+    {
+      "id": "C-9",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "All risk-related statements are clearly metaphorical expressions of frustration with furniture assembly, with immediate resolution and positive outcome demonstrating situational rather than clinical distress.",
+      "single_cot_latency": 14.31
+    },
+    {
+      "id": "C-10",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "The transcript shows acute situational anxiety about travel logistics that is fully resolved through practical problem-solving, with no indicators of self-harm, mental health crisis, violence, or abuse.",
+      "single_cot_latency": 10.39
+    },
+    {
+      "id": "C-11",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "The conversation demonstrates transient frustration with a mechanical object that resolves completely with problem-solving, showing no indicators of self-harm, mental health crisis, violence toward people, or abuse situations.",
+      "single_cot_latency": 14.42
+    },
+    {
+      "id": "C-12",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "All distress is contextually bound to a minor technical problem with complete resolution, containing no actual risk indicators despite hyperbolic language.",
+      "single_cot_latency": 12.39
+    },
+    {
+      "id": "C-13",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "Patient uses hyperbolic crisis language within the context of a minor technical problem that gets resolved, with no evidence of actual self-harm, crisis, violence, or abuse risk factors.",
+      "single_cot_latency": 10.71
+    },
+    {
+      "id": "C-14",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.95,
+      "single_cot_reasoning": "The conversation demonstrates metaphorical frustration with a technical issue that is successfully resolved through practical problem-solving, with no indicators of actual psychological risk factors.",
+      "single_cot_latency": 11.52
+    },
+    {
+      "id": "C-15",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_pred": "NOT_HIGH_RISK",
+      "single_cot_confidence": 0.0,
+      "single_cot_reasoning": "Failed to parse model output",
+      "single_cot_latency": 13.42
+    }
+  ]
+}

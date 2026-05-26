@@ -1,0 +1,242 @@
+{
+  "config": {
+    "datasets": [
+      "category_A_explicit_sensitive.json",
+      "category_B_implicit_sensitive.json",
+      "category_C_nonsensitive.json"
+    ],
+    "model": "deepseek-ai/DeepSeek-V3",
+    "approaches": [
+      "single_cot"
+    ],
+    "num_samples": 45
+  },
+  "summary": {},
+  "predictions": [
+    {
+      "id": "A-1",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-2",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-3",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-4",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-5",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-6",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-7",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-8",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-9",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-10",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-11",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-12",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-13",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-14",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "A-15",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-1",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-2",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-3",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-4",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-5",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-6",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-7",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-8",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-9",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-10",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-11",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-12",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-13",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-14",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "B-15",
+      "true_label": "HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-1",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-2",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-3",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-4",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-5",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-6",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-7",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-8",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-9",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-10",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-11",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-12",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-13",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-14",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    },
+    {
+      "id": "C-15",
+      "true_label": "NOT_HIGH_RISK",
+      "single_cot_error": "'\\n    \"section_a_undertones\"'"
+    }
+  ]
+}
