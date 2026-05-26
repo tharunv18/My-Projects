@@ -1,0 +1,6 @@
+id,predicted,true_label,confidence,result
+C-1,NOT_HIGH_RISK,NOT_HIGH_RISK,0.80,Correct
+C-2,NOT_HIGH_RISK,NOT_HIGH_RISK,0.85,Correct
+C-3,NOT_HIGH_RISK,NOT_HIGH_RISK,0.80,Correct
+C-4,NOT_HIGH_RISK,NOT_HIGH_RISK,0.80,Correct
+C-5,NOT_HIGH_RISK,NOT_HIGH_RISK,0.80,Correct
