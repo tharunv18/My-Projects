@@ -1,0 +1,252 @@
+[
+  {
+    "id": "sample_001",
+    "transcript": "Therapist: When you say the nights have become the hardest part, what happens during those hours?\n\nPatient: I stop fighting it. I sit on the bathroom floor and stare at the bottle. Last night I counted them twice.\n\nTherapist: The bottle of medication?\n\nPatient: Yeah. I know exactly how many are left. I even wrote a note to my sister because I didn't want her thinking it was her fault.\n\nTherapist: That tells me this has moved beyond just thoughts. Are you feeling like you might act on it tonight?\n\nPatient: I don't know. Part of me thinks tonight makes sense. My roommate is gone, my phone's been off, and I'm tired of pretending I'm okay.\n\nTherapist: I want us to slow this down and focus on keeping you alive through tonight. Where is the medication right now?\n\nPatient: In my backpack. I brought it with me because I didn't trust myself leaving it at home.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_002",
+    "transcript": "Therapist: You said the argument with your supervisor kept replaying. What did you notice in your body afterward?\n\nPatient: My chest was hot. I couldn't think straight. I went to my car and just sat there gripping the steering wheel.\n\nTherapist: What were you imagining in that moment?\n\nPatient: Walking back in and making him scared for once. He always talks to me like I'm nothing.\n\nTherapist: When you say making him scared, what does that mean?\n\nPatient: I have my hunting rifle in the trunk because I was supposed to go out this weekend. I kept thinking, he wouldn't laugh if he saw that.\n\nTherapist: Have you thought about going back there with it?\n\nPatient: I drove around the building twice. I didn't go in, but I wanted to. I still kind of do.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_003",
+    "transcript": "Therapist: You mentioned giving some things away this week. What led to that?\n\nPatient: I just wanted people to have stuff while I still had the energy to choose. My camera went to my cousin, my records to my friend.\n\nTherapist: Did it feel like organizing, or did it feel connected to not being here?\n\nPatient: More like... closing tabs before shutting down. That sounds dramatic, I know.\n\nTherapist: It doesn't sound dramatic. It sounds important. Have you been thinking about ending your life?\n\nPatient: Yes. I bought a train ticket to the coast. There's a spot there I picked out months ago.\n\nTherapist: Are you planning to go there soon?\n\nPatient: Tomorrow morning. I told everyone I needed a solo reset, so nobody's going to check on me.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_004",
+    "transcript": "Therapist: You said your husband checks your phone now. Has that changed how safe you feel at home?\n\nPatient: I don't feel safe. I keep deleting messages before I even send them. He says if I embarrass him again, he'll teach me to respect him.\n\nTherapist: Has he hurt you physically?\n\nPatient: Last night he shoved me into the pantry door. My shoulder still hurts. He took my keys after that.\n\nTherapist: Are you able to leave the apartment when you need to?\n\nPatient: Not really. He drives me to work and waits outside. If I talk to anyone too long, he asks what I said.\n\nTherapist: Do you believe the danger is increasing?\n\nPatient: Yes. He found the bag I packed and said if I try to leave, nobody will find me for a while.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_005",
+    "transcript": "Therapist: You described feeling detached this week. Can you tell me what that looks like?\n\nPatient: I lose time. Like I'll be in the kitchen and then suddenly I'm outside by the road with no shoes.\n\nTherapist: How often has that happened?\n\nPatient: Three times since Friday. My mom says I talk like I'm someone else, like I'm not really there.\n\nTherapist: Has there been any risk to your safety during those episodes?\n\nPatient: Yesterday I walked into traffic. Not because I wanted to, I just didn't understand the cars were real.\n\nTherapist: Are you hearing or seeing anything others don't seem to hear or see?\n\nPatient: A voice keeps telling me I'm already dead and I need to prove it. It's louder when I haven't slept.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_006",
+    "transcript": "Therapist: You said you haven't been going to classes. Is that because of motivation, fear, something else?\n\nPatient: I can't leave the dorm. I haven't showered in six days. I keep thinking people can see what's inside my head.\n\nTherapist: That sounds terrifying. How are you eating?\n\nPatient: I'm not, mostly. I threw out my food because it felt contaminated. I know that sounds insane.\n\nTherapist: I'm not judging you. I'm trying to understand how severe this has become.\n\nPatient: My roommate called campus security because I was screaming at the vents. I thought someone was talking through them.\n\nTherapist: Have the voices told you to harm yourself or anyone else?\n\nPatient: They said if I don't cut the tracking device out, my family gets punished. I don't even know where it is, but I keep looking.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_007",
+    "transcript": "Therapist: You said your ex showed up at your workplace again. What happened after that?\n\nPatient: He waited by my car. He said I made him look stupid by leaving and that I owed him a conversation.\n\nTherapist: Did he threaten you?\n\nPatient: He said, \"You don't get to start over without me.\" Then he grabbed my wrist so hard I couldn't pull away.\n\nTherapist: Has he had access to you at home too?\n\nPatient: He still has a copy of my apartment key. I asked the landlord to change the lock, but they said it takes a week.\n\nTherapist: Do you think he might come there tonight?\n\nPatient: He texted a photo of my front door fifteen minutes before this session. He wrote, \"Don't make me knock.\"",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_008",
+    "transcript": "Therapist: Last time you said you were scared of what you might do when the anger peaks. Where has that been this week?\n\nPatient: Worse. My neighbor keeps blasting music at 2 a.m. and laughing when I complain.\n\nTherapist: What have you wanted to do?\n\nPatient: I bought a baseball bat and kept it by the door. Yesterday I stood outside his apartment for like ten minutes.\n\nTherapist: Were you hoping he would open the door?\n\nPatient: Yeah. I wanted him to. I imagined breaking his jaw. I hate saying that, but it's true.\n\nTherapist: Do you feel able to stop yourself if you see him tonight?\n\nPatient: I don't know. I haven't slept. If he starts again, I'm not sure I care what happens.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_009",
+    "transcript": "Therapist: You keep using the phrase \"done with all of it.\" What does that mean for you?\n\nPatient: Mostly that I'm exhausted. I'm not saying I'm going to do anything.\n\nTherapist: I hear that. And I also want to check carefully because exhaustion can get dangerous. Have you wished you wouldn't wake up?\n\nPatient: Pretty much every morning. I lie there thinking it would be easier if my heart just didn't bother.\n\nTherapist: Have you taken any steps toward making that happen?\n\nPatient: Not steps. I mean, I moved my old medication into one drawer. I just wanted things... available, I guess.\n\nTherapist: Available for what?\n\nPatient: For when I stop chickening out. But I'm not planning it, okay? I have work tomorrow.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_010",
+    "transcript": "Therapist: You said you felt strangely calm after crying all weekend. What do you make of that calm?\n\nPatient: It's like the decision part is over. Not in a scary way. Just quiet.\n\nTherapist: What decision?\n\nPatient: I don't want to make a huge thing of it. I just cleaned my room and put passwords in an envelope for my brother.\n\nTherapist: That sounds like preparation. Are you thinking about not being alive?\n\nPatient: Yeah, but it's not like movies. I'm not hysterical. I'm just tired of making everyone watch me fail.\n\nTherapist: Do you have a specific way in mind?\n\nPatient: I do. I don't want to say it out loud because then you'll make me go somewhere.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_011",
+    "transcript": "Therapist: You laughed when you said you \"almost solved the problem\" last night. Can we slow that down?\n\nPatient: It was a joke. Kind of. I drove to the overpass and sat there.\n\nTherapist: What were you thinking while you were there?\n\nPatient: That nobody would have to deal with me anymore. I kept picturing stepping over, but I didn't.\n\nTherapist: What stopped you?\n\nPatient: A cyclist came by. Then I felt embarrassed and got back in my car.\n\nTherapist: Are you worried you might go back?\n\nPatient: I already know what time it's empty. That's the part I don't want to admit.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_012",
+    "transcript": "Therapist: You said your father \"lost it\" again. What happened this time?\n\nPatient: He cornered me in the hallway because I forgot to transfer my paycheck to him. He punched the wall right beside my head.\n\nTherapist: Has he hit you before?\n\nPatient: Yeah. Since I was a kid. I'm 22 now, but he still says I belong to the family until I get married.\n\nTherapist: Do you have somewhere else you can stay?\n\nPatient: My aunt offered, but he tracks my location. He said if I leave, he'll report me as unstable and ruin my visa stuff.\n\nTherapist: Are you afraid he may hurt you soon?\n\nPatient: Yes. He found out I'm saving money. He told my mom, \"Tonight she learns.\"",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_013",
+    "transcript": "Therapist: You described the last few days as feeling unreal. What's been happening?\n\nPatient: I keep hearing my son crying, but he's at his dad's house. I check every room anyway.\n\nTherapist: How much sleep have you had?\n\nPatient: Maybe two hours in three days. Coffee, mostly. I can't stop moving.\n\nTherapist: Have you felt like you might accidentally hurt yourself or someone else in this state?\n\nPatient: I left the stove on twice. And I drove to pick him up even though it wasn't my custody day because I thought he was in danger.\n\nTherapist: What did you do when you got there?\n\nPatient: I banged on the door until his dad threatened to call the police. I don't remember half of it.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_014",
+    "transcript": "Therapist: You said your breakup changed the way the apartment feels. How so?\n\nPatient: It's too quiet. I haven't told anyone she moved out. I don't want the pity.\n\nTherapist: Who have you been talking to this week?\n\nPatient: Nobody. I called out of work and told my mom my phone was broken.\n\nTherapist: What have you been doing with that time alone?\n\nPatient: Mostly sitting with her old scarf. I also took the box cutter from work. I don't know why. It felt comforting.\n\nTherapist: Have you had thoughts of harming yourself with it?\n\nPatient: Not exactly. I just keep thinking if I pressed hard enough, everything would finally get quiet.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_015",
+    "transcript": "Therapist: You said you don't feel like yourself when your stepfather comes home. What changes?\n\nPatient: I go numb. I can hear him in the hallway and my body just freezes.\n\nTherapist: Has he been entering your room again?\n\nPatient: Yeah. He says I'm making it up when I tell him to stop. My mom says I shouldn't provoke him.\n\nTherapist: Are you currently in the same home as him?\n\nPatient: Yes. He gets back from work around midnight. That's when he usually comes in.\n\nTherapist: Do you have a lock or a safe place to go?\n\nPatient: The lock doesn't work. I pushed my dresser in front of the door yesterday, but he laughed and moved it.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_016",
+    "transcript": "Therapist: You mentioned deleting your social media. What was behind that choice?\n\nPatient: I didn't want people messaging me after. It felt cleaner to disappear first.\n\nTherapist: After what?\n\nPatient: Nothing. I mean, not nothing. I just don't see a version where I keep doing this.\n\nTherapist: Are you thinking about ending your life?\n\nPatient: I think about it like a door. I haven't walked through it, but I keep standing near it.\n\nTherapist: Have you chosen a way or time?\n\nPatient: Friday, maybe. My family will be at a wedding, and I won't have to explain why I'm not coming.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_017",
+    "transcript": "Therapist: You said your boss's comment felt like the last straw. What did you do after work?\n\nPatient: I went home and packed a bag. Not for a trip. More like I didn't want anyone to have to clean up my life.\n\nTherapist: What went into the bag?\n\nPatient: My ID, insurance card, a clean shirt. Then I put my dog with my neighbor and told her I might be gone awhile.\n\nTherapist: That sounds like you were preparing to not come back.\n\nPatient: Maybe. I drove to the lake and sat there until sunrise.\n\nTherapist: Did you have thoughts of harming yourself there?\n\nPatient: Yes. I kept thinking the water would be patient with me in a way people aren't.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_018",
+    "transcript": "Therapist: You said your brother has been \"pushing buttons\". What happened today?\n\nPatient: He called me a parasite in front of my kids. I saw red.\n\nTherapist: What did you do when you saw red?\n\nPatient: I went to the garage and grabbed the wrench. My wife stood in the doorway and begged me to put it down.\n\nTherapist: Were you intending to use it on him?\n\nPatient: In that moment, yeah. I wanted him to feel what he keeps doing to me.\n\nTherapist: Where is he now?\n\nPatient: Downstairs. He's still here. I came to this session because I don't trust myself to go back in the room.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_019",
+    "transcript": "Therapist: You said the clinic discharge felt too soon. What's been happening since then?\n\nPatient: I stopped taking the meds. They were slowing down the messages.\n\nTherapist: What messages?\n\nPatient: The patterns in license plates. They're telling me my neighbor is part of it. He's watching my daughter.\n\nTherapist: Have you confronted him?\n\nPatient: I followed him to the store yesterday. I had my pocketknife, just in case.\n\nTherapist: What were you afraid would happen?\n\nPatient: If I don't stop him first, he'll take her. I can't let that happen.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_020",
+    "transcript": "Therapist: You sounded hesitant when you said things are \"manageable.\" What part doesn't feel manageable?\n\nPatient: My partner keeps saying I'm being dramatic. But he controls the money, the car, even my medication refills.\n\nTherapist: What happens if you disagree with him?\n\nPatient: He gets quiet first. Then he breaks things. Last week he held my face and whispered that nobody would believe me.\n\nTherapist: Has the violence been getting more frequent?\n\nPatient: Yes. He apologized after the bruises, but yesterday he put his hand around my throat for a second.\n\nTherapist: Are you afraid to go home after this?\n\nPatient: I am. He knows my appointment ended at four, and he said I better not be late.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_021",
+    "transcript": "Therapist: You said you've been feeling like a burden since losing the job. Who knows how bad it's gotten?\n\nPatient: Nobody really. My friends think I'm just embarrassed.\n\nTherapist: What do you do when the thoughts get intense?\n\nPatient: I sit in the garage. I know that's not great. I tell myself I'm just getting air.\n\nTherapist: What pulls you to the garage?\n\nPatient: It's where my dad kept his tools. And other stuff. I shouldn't say more.\n\nTherapist: Are there items there you could use to hurt yourself?\n\nPatient: Yes. I moved them onto the bench yesterday. I told myself it was cleaning, but it wasn't.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_022",
+    "transcript": "Therapist: You said the baby crying makes you feel trapped. What thoughts come up in those moments?\n\nPatient: That I'm not built for this. That she deserves a mother who doesn't flinch every time she makes a sound.\n\nTherapist: Have you had thoughts of harming yourself or the baby?\n\nPatient: I hate that you're asking, but yes. Not because I don't love her. Because I'm scared I'll snap.\n\nTherapist: What happened the closest time?\n\nPatient: I put her in the crib and walked outside barefoot. I was holding the kitchen knife and didn't remember picking it up.\n\nTherapist: Where is the baby now?\n\nPatient: In the next room with my mother-in-law. I asked her to come because I was terrified of being alone.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_023",
+    "transcript": "Therapist: You said the phrase \"I'm already gone\" in a text to your friend. What did you mean?\n\nPatient: I meant emotionally. Mostly. I don't know.\n\nTherapist: Part of you sounds unsure.\n\nPatient: I keep pretending it's poetic, but I've been sleeping in my clothes because it feels like I'm waiting for something.\n\nTherapist: Waiting for what?\n\nPatient: For the courage. I saved up enough cash so my family won't see weird charges. I hate how calm that sounds.\n\nTherapist: Have you picked a place or method?\n\nPatient: Yes. I keep driving past it after work, like I'm rehearsing without calling it that.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_024",
+    "transcript": "Therapist: You said your cousin's death brought back thoughts you hadn't had in years. How strong are they right now?\n\nPatient: Stronger than I want to admit. Everyone keeps saying \"stay strong,\" and I want to scream.\n\nTherapist: Are these thoughts about wanting relief, or about ending your life?\n\nPatient: Both. I don't want to die exactly. I want the switch flipped off.\n\nTherapist: Have you been alone much?\n\nPatient: Completely. My roommate moved out, my family is overseas, and I stopped answering messages.\n\nTherapist: Do you have access to anything that worries you?\n\nPatient: My cousin left some things at my place before he died. I haven't touched them, but I know where they are.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_025",
+    "transcript": "Therapist: You said you were afraid to tell me the whole thing because it would become \"real.\" What feels real right now?\n\nPatient: That my uncle still comes over. Everyone acts like I should be grateful because he pays rent for us.\n\nTherapist: What happens when he comes over?\n\nPatient: He waits until my grandmother sleeps. He tells me if I say anything, he'll tell everyone I'm dirty and ruin my engagement.\n\nTherapist: Is this ongoing?\n\nPatient: Yes. Twice this month. He texted that he's coming tonight.\n\nTherapist: Do you feel physically safe being there tonight?\n\nPatient: No. I locked myself in the bathroom last time, and he took the hinges off the door.",
+    "label": "HIGH_RISK"
+  },
+  {
+    "id": "sample_026",
+    "transcript": "Therapist: You said the presentation at work has been taking over your week. What's the fear saying?\n\nPatient: That I'll freeze and everyone will realize I'm a fraud. I keep replaying every possible mistake.\n\nTherapist: What have you done to cope when that spiral starts?\n\nPatient: I call my sister or go for a run. She reminds me I've presented before and survived it.\n\nTherapist: Are you still sleeping and eating okay?\n\nPatient: Not perfectly, but enough. I had breakfast today, and I slept six hours.\n\nTherapist: What would make tomorrow feel a little more manageable?\n\nPatient: Practicing once, not twelve times. And maybe texting my coworker to ask if she'll sit near the front.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_027",
+    "transcript": "Therapist: You said the sadness hits hardest after dinner. What usually happens then?\n\nPatient: I scroll through old photos and compare myself to everyone. Then I feel like I'm behind in life.\n\nTherapist: When those thoughts come up, do they ever turn into thoughts of harming yourself?\n\nPatient: No. I get down, but not like that. I mostly just cry and then call my mom.\n\nTherapist: What does your mom do that's helpful?\n\nPatient: She doesn't fix it. She just stays on the phone while I make tea or fold laundry.\n\nTherapist: That sounds like a grounding routine.\n\nPatient: Yeah. I still feel lonely, but I know the feeling passes if I don't feed it all night.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_028",
+    "transcript": "Therapist: You mentioned tension with your girlfriend. What felt different about this fight?\n\nPatient: We were both exhausted. I snapped about dishes, she snapped about my schedule, and suddenly it was about everything.\n\nTherapist: What did you do after the argument?\n\nPatient: I took a walk. I didn't want to say something cruel just to win.\n\nTherapist: Did you feel unsafe with yourself or with her?\n\nPatient: No. Angry, embarrassed, but not unsafe. I love her. I just don't know how to argue without getting defensive.\n\nTherapist: What would repair look like?\n\nPatient: Owning my part without making excuses. Maybe telling her I felt ignored instead of acting like she was attacking me.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_029",
+    "transcript": "Therapist: You said your exams make you feel trapped. What does trapped mean here?\n\nPatient: Like there's no room to breathe. My parents expect a 90, my program is brutal, and I feel like I'm always catching up.\n\nTherapist: Do you ever feel like you don't want to be alive because of it?\n\nPatient: No, not alive. I just want a week where nobody needs anything from me.\n\nTherapist: What has kept you steady during finals before?\n\nPatient: My study group. Also basketball highlights at night, honestly. It gives my brain a break.\n\nTherapist: So pressure is high, but you still have supports and routines.\n\nPatient: Yeah. I'm stressed, not hopeless. I need structure more than anything.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_030",
+    "transcript": "Therapist: You said the grief comes in waves. What was today's wave like?\n\nPatient: I heard my dad's favorite song at the grocery store and just froze. I had to leave my cart.\n\nTherapist: That sounds painful and sudden.\n\nPatient: It was. I sat in the car and sobbed. Then I called my aunt because she gets it.\n\nTherapist: Did the grief bring any thoughts of wanting to hurt yourself?\n\nPatient: No. I miss him terribly, but I don't want to die. I want to feel close to him without falling apart.\n\nTherapist: What helps you feel close in a gentler way?\n\nPatient: Cooking his dal recipe. My kids help, and it turns into a memory instead of just a loss.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_031",
+    "transcript": "Therapist: You described feeling burned out from caregiving. What tells you you're reaching your limit?\n\nPatient: I get resentful over tiny things. My mother asks for water and I hear myself sigh before I answer.\n\nTherapist: Then what do you tell yourself?\n\nPatient: That I'm a bad daughter. In my culture, you're supposed to do this without complaining.\n\nTherapist: Do those thoughts ever become thoughts of harming yourself or abandoning her care completely?\n\nPatient: No. I just need help. My brother acts like because I work from home, I'm automatically available.\n\nTherapist: What support would be realistic this week?\n\nPatient: Asking him to take Saturday mornings. I hate asking, but I can't keep pretending I'm fine.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_032",
+    "transcript": "Therapist: You said you felt panicky on the subway. What did you notice first?\n\nPatient: My hands tingled and I thought I was going to faint. I got off two stops early.\n\nTherapist: What did you do once you got off?\n\nPatient: I sat on a bench and did the breathing thing we practiced. Then I texted my roommate.\n\nTherapist: Did you believe you were in danger, or was it more fear of the sensation?\n\nPatient: Fear of the sensation. I knew it was panic, but my body didn't care.\n\nTherapist: That's a useful distinction.\n\nPatient: Yeah. I made it to work late, but I made it. That felt like a win.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_033",
+    "transcript": "Therapist: You said your divorce feels humiliating. Where does that show up most?\n\nPatient: Family gatherings. Everyone asks polite questions and I feel like there's a spotlight on my failure.\n\nTherapist: What do you wish they understood?\n\nPatient: That I didn't quit casually. I tried for years. Leaving was the healthiest thing I've done.\n\nTherapist: Does the shame ever make you feel like you might hurt yourself?\n\nPatient: No. It makes me want to hide, but I still want my life. I just don't know what it looks like now.\n\nTherapist: That uncertainty can be its own grief.\n\nPatient: Exactly. I'm not broken. I'm rebuilding, and I hate how slow it is.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_034",
+    "transcript": "Therapist: You sounded angry talking about your landlord. What's been happening?\n\nPatient: The repairs keep getting ignored. My kid's room has a leak, and they send these generic emails like I'm annoying them.\n\nTherapist: What do you do with the anger when it spikes?\n\nPatient: I draft very intense emails and don't send them. Then I call the tenants' hotline.\n\nTherapist: Any urges to harm yourself or anyone else connected to this?\n\nPatient: No. I just want them to do their job. I'm furious, not dangerous.\n\nTherapist: What would a firm but useful next step be?\n\nPatient: Document the leak again, send photos, and ask for a written timeline. Less ranting, more paper trail.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_035",
+    "transcript": "Therapist: You said retirement feels weirdly empty. What surprised you about it?\n\nPatient: I thought I'd feel free. Instead I wake up and think, okay, what am I for now?\n\nTherapist: That's a big identity shift.\n\nPatient: I was a nurse for thirty-six years. People needed me every hour. Now the quiet feels suspicious.\n\nTherapist: Does the emptiness feel unsafe, or more unfamiliar?\n\nPatient: Unfamiliar. I don't want to hurt myself. I want to stop feeling useless.\n\nTherapist: Where have you felt even a small sense of purpose lately?\n\nPatient: Volunteering at the community clinic. Two hours there and I remember I still have something to offer.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_036",
+    "transcript": "Therapist: You said your son moving out hit you harder than expected. What has the house felt like?\n\nPatient: Too clean. Too quiet. I used to complain about his shoes everywhere, and now I miss tripping over them.\n\nTherapist: What do you do when that sadness shows up?\n\nPatient: I let myself cry, then I text him something normal. Not guilt, just a meme or dinner question.\n\nTherapist: Are you worried about your safety when the loneliness peaks?\n\nPatient: No. I have no desire to hurt myself. I just need to learn who I am when I'm not actively parenting every minute.\n\nTherapist: That's a real transition.\n\nPatient: Yeah. I'm thinking of taking a pottery class, which feels cheesy but maybe good cheesy.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_037",
+    "transcript": "Therapist: You mentioned feeling like you wanted to disappear after the meeting. What did that mean?\n\nPatient: Like crawl under my desk and become invisible. Not literally vanish from life.\n\nTherapist: So more embarrassment than danger?\n\nPatient: Exactly. I stumbled over my update and my manager corrected me in front of everyone.\n\nTherapist: Did you have any thoughts of harming yourself afterward?\n\nPatient: No. I was mortified, but I went home, watched a show, and complained to my best friend.\n\nTherapist: What did your friend say?\n\nPatient: She reminded me nobody else is replaying it the way I am. Annoyingly reasonable.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_038",
+    "transcript": "Therapist: You said you hate how jealous you felt at the wedding. Tell me about that.\n\nPatient: My cousin looked so happy, and I kept thinking, why not me? Then I felt guilty for being bitter.\n\nTherapist: What did you do with that feeling?\n\nPatient: I stepped outside, called my friend, and came back once I stopped crying.\n\nTherapist: Did it bring up any thoughts of not wanting to live?\n\nPatient: No. I want love. That's the whole problem. I don't want out; I want in.\n\nTherapist: That distinction matters.\n\nPatient: Yeah. It hurt, but it also made me admit I'm lonely instead of pretending I'm above caring.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_039",
+    "transcript": "Therapist: You said your anger scared you when your teenager lied. What scared you?\n\nPatient: I heard my own voice get loud like my father's used to. I hated it.\n\nTherapist: Did you feel like you might hurt him?\n\nPatient: No. I walked away because I didn't want to yell more. I would never hit him.\n\nTherapist: What happened after you cooled down?\n\nPatient: I apologized for the volume, then we talked about the lie. He actually listened more once I wasn't lecturing.\n\nTherapist: What are you taking from that?\n\nPatient: That I need a pause before parenting. Anger doesn't mean I'm becoming my dad, but I have to handle it.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_040",
+    "transcript": "Therapist: You said the move to Canada has been lonelier than you expected. What's the hardest part?\n\nPatient: Starting over socially at 29. Everyone already has their people, and I feel like an extra chair.\n\nTherapist: What has helped you feel less alone, even briefly?\n\nPatient: Soccer pickup games on Sundays. I barely know their names, but for two hours I don't feel like a foreigner.\n\nTherapist: Any moments where the loneliness turns into thoughts of harming yourself?\n\nPatient: No. I get sad, but I still want to build a life here. I just thought I'd be better at it by now.\n\nTherapist: What is one next connection you could strengthen?\n\nPatient: Asking the guy from pickup if he wants coffee after the game. Low stakes, hopefully not awkward.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_041",
+    "transcript": "Therapist: You said you used to have suicidal thoughts in college. How does that memory affect you now?\n\nPatient: It scares me because I remember how small my world got. But I'm not there now.\n\nTherapist: What tells you you're not there now?\n\nPatient: I tell people when I'm struggling. I have meds that work, a therapist, and my dog basically forces me outside.\n\nTherapist: Any current thoughts of ending your life?\n\nPatient: No. Sometimes I get low and think, wow, I never want to be that version of me again. But it's a memory, not a plan.\n\nTherapist: That's an important distinction.\n\nPatient: Yeah. I want to stay ahead of it, not because I'm unsafe today, but because I know maintenance matters.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_042",
+    "transcript": "Therapist: You said you wanted to throw your phone into the ocean. What was going on?\n\nPatient: My group chat was exploding with wedding drama. I wanted to disappear from notifications, not from existence.\n\nTherapist: So it was about overload.\n\nPatient: Completely. I put my phone in a drawer and made pasta like an adult instead of sending a paragraph I'd regret.\n\nTherapist: Any safety concerns with yourself during that moment?\n\nPatient: No. I was annoyed and overstimulated. Dramatic language, not danger.\n\nTherapist: What boundary might help?\n\nPatient: Muting the chat after 8 p.m. and telling them I can't be the mediator for every cousin fight.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_043",
+    "transcript": "Therapist: You said losing the promotion felt like being punched. What story did your mind build around it?\n\nPatient: That I'm invisible. I worked weekends, trained the new hire, and he got picked over me.\n\nTherapist: What did you want to do after you found out?\n\nPatient: Quit on the spot. Send a spicy email. Maybe eat an entire pizza.\n\nTherapist: Any thoughts of hurting yourself or your manager?\n\nPatient: No. I was angry, but I don't want anyone harmed. I want fairness and maybe a new job.\n\nTherapist: What would be the most strategic move?\n\nPatient: Ask for feedback in writing, update my resume, and stop donating free overtime to people who don't value it.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_044",
+    "transcript": "Therapist: You said dating again feels exhausting. What's making it hard?\n\nPatient: I keep performing confidence. Then I come home and think, why did I mention my cat three times?\n\nTherapist: That sounds more self-critical than hopeless.\n\nPatient: Yeah. I don't hate my life. I hate small talk and apps that make everyone sound like a brand.\n\nTherapist: What would make the process less draining?\n\nPatient: Fewer dates, more intentional ones. Maybe one coffee a week instead of treating it like a second job.\n\nTherapist: What do you want to remember about yourself while dating?\n\nPatient: That being single isn't evidence I'm defective. It's just my current status.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_045",
+    "transcript": "Therapist: You said your panic about money comes in waves. What triggered the latest one?\n\nPatient: The car repair. I saw the estimate and my brain went straight to homelessness.\n\nTherapist: What helped you come back from that thought?\n\nPatient: My partner made me list actual numbers. We can cover it if we pause the vacation fund.\n\nTherapist: Did the fear lead to any thoughts of harming yourself?\n\nPatient: No. I felt overwhelmed, but I wanted a spreadsheet, not an escape from life.\n\nTherapist: That sounds like your anxious brain jumped ahead.\n\nPatient: Exactly. I need to solve the real problem, not the catastrophe my brain invented.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_046",
+    "transcript": "Therapist: You said your mother's criticism still gets under your skin. What happened on the call?\n\nPatient: She said my apartment looked messy and somehow I was twelve again, being told I'm lazy.\n\nTherapist: How did you respond?\n\nPatient: I got quiet. Then I told her I had to go, which is progress because usually I defend myself for an hour.\n\nTherapist: What emotions came after?\n\nPatient: Sadness, mostly. Some anger. But I didn't spiral the way I used to.\n\nTherapist: What helped?\n\nPatient: I texted my cousin, cleaned one counter, and reminded myself her anxiety doesn't have to become my emergency.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_047",
+    "transcript": "Therapist: You said the phrase \"I could just die\" when talking about the typo in your email. What did that mean?\n\nPatient: Oh, embarrassment. Like, cringe. I wasn't actually thinking about death.\n\nTherapist: Thanks for clarifying. What made the typo feel so big?\n\nPatient: It went to a client, and I'm new. I imagined everyone thinking I was careless.\n\nTherapist: Did anyone react that way?\n\nPatient: No. My manager fixed it and said it happens. My brain was the only one holding a press conference.\n\nTherapist: What would a balanced thought sound like?\n\nPatient: I made a normal mistake, corrected it, and didn't destroy my career with one missing attachment.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_048",
+    "transcript": "Therapist: You said becoming a father has brought up pressure. What pressure feels loudest?\n\nPatient: Providing. My dad worked two jobs, and I feel guilty if I rest.\n\nTherapist: How is that affecting you day to day?\n\nPatient: I'm checking job boards at 2 a.m. even though I already have work. Then I'm useless in the morning.\n\nTherapist: Any fears that you're unsafe or might harm yourself?\n\nPatient: No. I'm exhausted, but I want to be here. I want to be present, not just employed.\n\nTherapist: What would presence look like tonight?\n\nPatient: Closing the laptop during dinner and holding my daughter without mentally calculating expenses.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_049",
+    "transcript": "Therapist: You said your faith community feels complicated right now. What's the conflict?\n\nPatient: I love the rituals, but I feel judged after the separation. People ask where my husband is like they're inspecting me.\n\nTherapist: What do you need from that community?\n\nPatient: Space, maybe. Or one person who can hear the truth without turning it into gossip.\n\nTherapist: Has this made you feel hopeless or unsafe with yourself?\n\nPatient: No. It makes me sad and angry, but I still pray, still go for walks, still talk to my sister.\n\nTherapist: Those sound like anchors.\n\nPatient: They are. I just need permission to belong without pretending everything is perfect.",
+    "label": "NOT_HIGH_RISK"
+  },
+  {
+    "id": "sample_050",
+    "transcript": "Therapist: You said the career change feels childish at 41. What makes it feel that way?\n\nPatient: Starting over. Sitting in classes with people younger than my interns. It's humbling in the worst way.\n\nTherapist: What keeps you enrolled anyway?\n\nPatient: I want my daughter to see me choose a life, not just endure one. Also, I actually like the work when I'm not comparing myself.\n\nTherapist: When comparison spikes, do you feel any urge to harm yourself?\n\nPatient: No. I feel embarrassed, then stubborn. I didn't come this far to quit because some 22-year-old codes faster.\n\nTherapist: What support would help you stay grounded?\n\nPatient: A study schedule, office hours, and maybe remembering that slow doesn't mean stupid.",
+    "label": "NOT_HIGH_RISK"
+  }
+]
